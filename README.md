@@ -8,7 +8,7 @@
 
 ## Live Link
 
--https://imraanmeyer.github.io/online_cv/online_cv.html
+-
 
 ## Prevalent Technologies Used
 
@@ -42,8 +42,11 @@ Tools:
 - Readme Created
 - Live Link Created
 
-2018-12-05
-- Navbar Created
+2018-12-05:
+- Navbar created
+
+2018-12-07:
+- Navbar updated
 
 ## Contributors
 

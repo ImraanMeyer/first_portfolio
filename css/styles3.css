@@ -1,0 +1,92 @@
+html {
+
+}
+
+body {
+    margin: 0;
+    background-color: #8D99AE;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.site-header {
+    height: 500px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.089);
+    overflow: hidden;
+    padding: 90px 10px;
+    background-image: url(../images/jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.title {
+    color: #DECBB7;
+    font-size: 46px;
+    text-align: left;
+    margin: 0;
+    padding: 1.5em 0;
+    letter-spacing: 1.35rem;
+
+}
+
+nav {
+    display: contents;
+    margin: 0
+    overflow: hidden;
+}
+ul li {
+    text-decoration: none;
+    margin-left: 38%;
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+    display: inline;
+    color: #f3f3f3;
+    border: 1px;
+    border-radius: 1em;
+}
+
+a:hover {
+    background-color: #FE5F55;
+    color: #B0B5B3;
+    transition: 1s;
+}
+
+a:active {
+    background-color: #32425E;
+    color: #DECBB7;
+    transition: 0.8s
+}
+
+.about-me {
+  margin: auto;
+  padding: auto;
+}
+
+
+/* CV CONTENT */
+
+#personal-details {
+    background-color: #32425E;
+    color: #DECBB7;
+    margin: 50px 1px 0 1px;
+    padding: 2em;
+    border: #5D576B solid 3px;
+    border-radius: 1em;
+}
+
+
+
+
+
+/* FOOTER  */
+
+background-color: rgba(0, 0, 0, 0.089)
