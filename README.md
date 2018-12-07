@@ -41,7 +41,12 @@ Tools:
 - Base folders added
 - Readme Created
 - Live Link Created
--
+
+2018-12-05:
+- Navbar created
+
+2018-12-07:
+- Navbar updated
 
 ## Contributors
 
