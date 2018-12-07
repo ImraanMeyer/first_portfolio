@@ -88,8 +88,6 @@ li a:active {
   /* 50px 1px 0 1px */
   padding: 2em 6em;
   height: 500px;
-
-
 }
 
 .about-me {
@@ -98,7 +96,10 @@ li a:active {
   text-align: center;
   border: 3px #7DAAA2;
   border-radius: 1em;
+}
 
+#custom-text {
+  padding: 2em;
 }
 
 /* CV CONTENT */
