@@ -47,6 +47,8 @@ Tools:
 
 2018-12-07:
 - Navbar updated
+- Footer Created
+- Implemented Grid
 
 ## Contributors
 
