@@ -3,33 +3,53 @@ html {
 }
 
 body {
+
+    line-height: 1.6em;
     margin: 0;
-    background-color: #B0B5B3;
+    background-color: #8D99AE;
     font-family: 'Poppins', sans-serif;
 
 }
 
 .site-header {
+    height: 200px;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.089);
+    background-color: #32425ed4;
     overflow: hidden;
-    padding: 90px 10px;
-    background-image: url(../images/jpg);
+    padding: 60px 10px;
+}
+
+.body-parallax {
+
+  /* The image used */
+    background-image: url(../images/bg.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: top;
+    background-size: cover;
 }
 
 .title {
-    color: #5D576B;
+    color: #DECBB7;
     font-size: 46px;
     text-align: left;
     margin: 0;
-    padding: 1.5em;
+    padding: 1.5em 0;
+    letter-spacing: 1.35rem;
+
 }
 
 nav {
+    display: contents;
+    margin: 0
     overflow: hidden;
 }
+
 ul li {
     text-decoration: none;
     margin-left: 38%;
@@ -37,7 +57,7 @@ ul li {
 }
 
 
-a {
+li a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -45,26 +65,67 @@ a {
     float: left;
     display: inline;
     color: #f3f3f3;
-    border-radius: 4%;
+    border: 1px;
+    border-radius: 1em;
 }
 
-a:hover {
-    background-color: #B0B5B3;
-    color: #5D576B;
+li a:hover {
+    background-color: #FE5F55;
+    color: #B0B5B3;
     transition: 1s;
 }
 
-a:active {
-    background-color: #92BDA3;
-    color: #f3f3f3;
+li a:active {
+    background-color: #32425E;
+    color: #DECBB7;
     transition: 0.8s
 }
 
-#personal-details {
-    background-color: #5D576B;
-    color: #B0B5B3;
-    margin: 50px 1px 0 1px;
-    padding: 2em;
-    border: #5D576B solid 3px;
+.container-about {
+
+    background-color: #61988E;
+    color: #DECBB7;
+    margin:40px 30px 0 30px ;
+    /* 50px 1px 0 1px */
+    padding: 2em 6em;
+    height: 500px;
+}
+
+.about-me {
+    margin: 2em;
+    background-color: #7DAAA2;
+    text-align: center;
+    border: 3px #7DAAA2;
     border-radius: 1em;
+}
+
+#custom-text {
+    padding: 2em;
+}
+
+/* CV CONTENT */
+
+#personal-details {
+    background-color: #32425E;
+    color: #DECBB7;
+    margin:60px 10px ;
+    /* 50px 1px 0 1px */
+    padding: 2em;
+
+    border-radius:
+}
+
+
+
+
+
+/* FOOTER  */
+
+.site-footer {
+    background-color: #32425ed4;
+    height: 60px;
+}
+
+#instagram:hover {
+    background-image: url(../images/gram-color.png);
 }
