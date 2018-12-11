@@ -52,7 +52,8 @@ Tools:
 - Updated Readme file
 
 2018-12-11:
-- 
+- Updated 'About Me' setion
+- Updated 'Personal Details' section
 
 ## Contributors
 
