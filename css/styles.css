@@ -8,9 +8,21 @@ body {
 
     line-height: 1.6em;
     margin: 0;
-    background-color: ;
+    background-color: lightgrey;
     font-family: 'Poppins', sans-serif;
+}
 
+
+.body-parallax {
+    /* The image used */
+    background-image: url(../images/grey-min.jpg); 
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .site-header {
@@ -23,20 +35,6 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
-}
-
-.body-parallax {
-
-  /* The image used */
-    background-image: url(../images/grey-min.jpg);
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .title {
@@ -86,37 +84,6 @@ li a:active {
 }
 
 /* CV CONTENT */
-/* ABOUT ME SECTION */
-.container-about,
-.container-skills {
-    background-color:  #f5f5f587;
-}
-
-.container-about {
-    
-    /* #61988E */
-    margin:50px 30px 0 30px ;
-    /* 50px 1px 0 1px */
-    padding: 2em 6em;
-    height: 0 auto;
-}
-
-.about-me {
-    margin: 2em;
-    background-color: #7DAAA2;
-    text-align: center;
-    border: 2px #7DAAA2;
-    border-radius: 2em;
-    transition: 0.2s ease-out;
-}
-
-.about-me:hover {
-    margin: 2em ;
-    text-align: center;
-    border: 2px #77ddaa;
-    border-radius: 1em;
-    transition: 0.2s ease-out;
-}
 
 #custom-text {
     padding: 2em;
@@ -131,17 +98,29 @@ li a:active {
     line-height: 1.6em;
 }
 
-/* CONTACT DETAILS SECTION */
 
-
-.container-skills {
+.container-about,
+.container-skills,
+.container-edu,
+.container-work {
+    background-color:  #f5f5f587;
     margin:50px 30px 0 30px ;
-    /* 50px 1px 0 1px */
     padding: 2em 6em;
     height: 0 auto;
 }
 
-.skills {
+.about-me,
+.education {
+    margin: 2em;
+    background-color: #7DAAA2;
+    text-align: center;
+    border: 2px #7DAAA2;
+    border-radius: 2em;
+    transition: 0.2s ease-out;
+}
+
+.skills,
+.work-xp {
     margin: 2em;
     background-color: #57647B;
     text-align: center;
@@ -150,12 +129,20 @@ li a:active {
     transition: 0.2s ease-out;
 }
 
+
+.about-me:hover,
+.skills:hover,
+.education:hover,
+.work-xp:hover {
+    border-radius: 1em;
+    transition: 0.2s ease-out;
+}
+
 /* FOOTER  */
 
 .site-footer {
     background-color: #32425ed4;
     height: 60px;
-    
     margin: 2em 0 0 0;
     overflow: hidden;
     padding: 60px 10px;
@@ -168,19 +155,4 @@ li a:active {
 
 #instagram:hover {
     background-image: url(../images/gram-color.png);
-}
-
-/* TABLES */
-table {
-    columns: 2;
-}
-
-table thead th {
-    display: block;
-    text-align: left;
-}
-
-table tbody td {
-    /* display: inline ; */
-    text-align: left;
 }
