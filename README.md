@@ -55,6 +55,12 @@ Tools:
 - Updated 'About Me' setion
 - Updated 'Personal Details' section
 
+2018-12-12
+- Updated content
+- Created skills section
+- Hover effects updated for containers
+
 ## Contributors
 
-Imraan - 2018
+Imraan Meyer - 2018
+Liam Romney Hendricks - 2018

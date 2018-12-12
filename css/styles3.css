@@ -8,7 +8,7 @@ body {
 
     line-height: 1.6em;
     margin: 0;
-    background-color: #8D99AE;
+    background-color: ;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -28,8 +28,7 @@ body {
 .body-parallax {
 
   /* The image used */
-    background-image: url(../images/bg.jpg);
-
+    background-image: url(../images/grey-min.jpg);
     /* Full height */
     height: 100%;
 
@@ -72,6 +71,7 @@ li a {
     color: #f3f3f3;
     border: 1px;
     border-radius: 1em;
+    transition: 0.4s ease-in-out;
 }
 
 li a:hover {
@@ -87,8 +87,14 @@ li a:active {
 
 /* CV CONTENT */
 /* ABOUT ME SECTION */
+.container-about,
+.container-skills {
+    background-color:  #f5f5f587;
+}
+
 .container-about {
-    background-color: #61988E;
+    
+    /* #61988E */
     margin:50px 30px 0 30px ;
     /* 50px 1px 0 1px */
     padding: 2em 6em;
@@ -105,52 +111,76 @@ li a:active {
 }
 
 .about-me:hover {
-    margin: 4em 2em ;
+    margin: 2em ;
     text-align: center;
     border: 2px #77ddaa;
     border-radius: 1em;
-    box-shadow: #3b6e55;
+    transition: 0.2s ease-out;
 }
 
 #custom-text {
     padding: 2em;
+    color: #DECBB7;
+    transition: 0.2s ease-out;
 }
 
 #custom-text:hover {
     padding: 4em;
     transition: 0.2s ease-in-out;
-    font-size: 2em;
+    font-size: 1.2em;
     line-height: 1.6em;
 }
 
-/* PERSONAL DETAILS SECTION */
+/* CONTACT DETAILS SECTION */
 
 
-.container-personal {
-    background-color: #32425E;
-    color: #DECBB7;
+.container-skills {
     margin:50px 30px 0 30px ;
     /* 50px 1px 0 1px */
     padding: 2em 6em;
     height: 0 auto;
 }
 
-.personal-details {
+.skills {
     margin: 2em;
     background-color: #57647B;
     text-align: center;
     border: 2px #7DAAA2;
     border-radius: 2em;
     transition: 0.2s ease-out;
-
+}
 
 /* FOOTER  */
 
 .site-footer {
     background-color: #32425ed4;
     height: 60px;
+    
+    margin: 2em 0 0 0;
+    overflow: hidden;
+    padding: 60px 10px;
+    background-image: url(../images/header-bg.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+
 }
 
 #instagram:hover {
     background-image: url(../images/gram-color.png);
+}
+
+/* TABLES */
+table {
+    columns: 2;
+}
+
+table thead th {
+    display: block;
+    text-align: left;
+}
+
+table tbody td {
+    /* display: inline ; */
+    text-align: left;
 }
