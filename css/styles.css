@@ -46,13 +46,6 @@ body {
     letter-spacing: 1.35rem;
 }
 
-img {
-  height: 8em;
-  width: 8em;
-  padding-right: 2em;
-  margin: 1em;
-}
-
 nav {
     display: contents ;
     margin: 0;
@@ -159,6 +152,47 @@ li a:active {
 .work-xp:hover {
     border-radius: 1em;
     transition: 0.2s ease-out;
+}
+
+
+
+img {
+  height: 8em;
+  width: 8em;
+  padding-right: 2em;
+  margin: 1em;
+  padding: 0.5em;
+  color: blue;
+}
+
+/* .html-logo-png,
+.css-logo-png,
+.js-logo-png, {
+  width: 0;
+  margin: 0;
+  background-color: pink ;
+  box-sizing: content-box;
+  box-shadow: 15px;
+} */
+.html-logo-png,
+.css-logo-png,
+.js-logo-png,
+.sass-logo-png {
+  margin-top: : 10px ;
+  height: 11em;
+  width: 11em;
+  display: inline-block;
+  padding: 2%;
+  border-radius: 0.4em;
+  background: #f3f3f3;
+}
+
+
+.sass-logo-png img:hover {
+    height: 10em;
+    width: 10em;
+    
+    transition: smooth 1s
 }
 
 /* FOOTER  */
