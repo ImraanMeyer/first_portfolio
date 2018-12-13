@@ -15,7 +15,7 @@ body {
 
 .body-parallax {
     /* The image used */
-    background-image: url(../images/grey-min.jpg); 
+    background-image: url(../images/grey-min.jpg);
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
@@ -30,7 +30,7 @@ body {
     margin: 0;
     background-color: #32425ed4;
     overflow: hidden;
-    padding: 60px 10px;
+    padding: 10px 10px 60px 10px;
     background-image: url(../images/header-bg.svg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -40,21 +40,32 @@ body {
 .title {
     color: #DECBB7;
     font-size: 46px;
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 1.5em 0;
     letter-spacing: 1.35rem;
 }
 
+img {
+  height: 8em;
+  width: 8em;
+  padding-right: 2em;
+  margin: 1em;
+}
+
 nav {
-    display: contents;
+    display: contents ;
     margin: 0;
     overflow: hidden;
+    font-size: 0.8em;
+    width: 90%;
+    margin: 10px auto;
 }
 
 ul li {
     text-decoration: none;
-    margin-left: 38%;
+    margin-left: 30%;
+    padding-bottom: 2em;
     list-style-type: none;
 }
 
@@ -66,7 +77,7 @@ li a {
     padding: 14px 16px;
     float: left;
     display: inline;
-    color: #f3f3f3;
+    color: #DECBB7;
     border: 1px;
     border-radius: 1em;
     transition: 0.4s ease-in-out;
@@ -74,7 +85,7 @@ li a {
 
 li a:hover {
     background-color: #FE5F55;
-    color: #B0B5B3;
+    color: #f3f3f3;
     transition: 1s;
 }
 
@@ -96,6 +107,18 @@ li a:active {
     transition: 0.2s ease-in-out;
     font-size: 1.2em;
     line-height: 1.6em;
+}
+
+#skills-logo {
+    padding: 2em;
+    color: #DECBB7;
+    transition: 0.2s ease-out;
+}
+
+#skills-logo:hover {
+  padding: 2.3em;
+  transition: 0.2s ease-in-out;
+  font-size: 1.2em;
 }
 
 
