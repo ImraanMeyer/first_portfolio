@@ -46,6 +46,13 @@ body {
     letter-spacing: 1.35rem;
 }
 
+.heading-2 {
+    padding: 0;
+    font-size: 2em;
+    margin: 0 0 0.3em 0;
+
+}
+
 nav {
     display: contents ;
     margin: 0;
@@ -110,8 +117,7 @@ li a:active {
 
 #skills-logo:hover {
 
-  transition: 0.2s ease-in-out;
-
+    transition: 0.2s ease-in-out;
 }
 
 
@@ -155,36 +161,47 @@ li a:active {
 }
 
 
-
-img {
-  height: 8em;
-  width: 8em;
-  padding-right: 2em;
-  margin: 1em;
-  padding: 0.5em;
-  color: blue;
+div img {
+    height: 8em;
+    width: 8em;
+    padding-right: 2em;
+    margin: 1em;
+    padding: 0.5em;
 }
 
 
-.html-logo-png,
-.css-logo-png,
-.js-logo-png,
-.sass-logo-png {
-  margin-top: : 10px ;
-  height: 11em;
-  width: 11em;
-  display: inline-block;
-  padding: 2%;
-  border-radius: 0.4em;
-  background: #f3f3f3;
-  margin-bottom: 1em;
-
+.logo-png {
+    margin-top: 1.6em;
+    height: 11em;
+    width: 11em;
+    display: inline-block;
+    padding: 2%;
+    border-radius: 0.4em;
+    background: #f3f3f3d4;
+    margin-bottom: 1em;
+    transition: 0.3s ease-in;
 }
 
-    transition: smooth 1s
+.logo-png:hover {
+    height: 12em;
+    width: 12em;
+    background-color: #f3f3f3; 
+    transition: 0.3s ease-out;
 }
 
-/* FOOTER  */
+.go-to-top {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    margin: 1px auto;
+    background-color: #FE5F55;
+    border-radius: 3em;
+    border:gray 0.10rem 0.1rem ;  
+    bottom: 40px;
+    right: 50px;
+}
+
+/********************************************************************************************************************                                                       FOOTER  ******************************************************************************************************************/
 
 .site-footer {
     background-color: #32425ed4;

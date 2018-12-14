@@ -60,6 +60,13 @@ Tools:
 - Created skills section
 - Hover effects updated for containers
 
+2018-12-13 
+- Moved nav bar location
+- Updated skills section with imgs
+
+2018-12-14
+- 
+
 ## Contributors
 
 - Imraan Meyer - 2018
