@@ -66,6 +66,7 @@ Tools:
 2018-12-14
 - Created active scroll to top link
 - Final updated on skills hover effect
+- Footer content updated (inc)
 
 ## Contributors
 
