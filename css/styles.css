@@ -189,16 +189,24 @@ div img {
     transition: 0.3s ease-out;
 }
 
-.go-to-top {
+#go-to-top {
+    display: none;
+    z-index: 99;
     position: fixed;
     width: 40px;
     height: 40px;
     margin: 1px auto;
-    background-color: #FE5F55;
+    background-color: #57647B ;
     border-radius: 3em;
     border:gray 0.10rem 0.1rem ;  
     bottom: 40px;
     right: 50px;
+    transition: ease-out 0.2s;
+}
+
+#go-to-top:hover {
+    background-color:#FE5F55 ;
+    transition: ease-in 0.2s;
 }
 
 /********************************************************************************************************************                                                       FOOTER  ******************************************************************************************************************/
@@ -213,9 +221,15 @@ div img {
     background-size: 100%;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
-
 }
 
-#instagram:hover {
-    background-image: url(../images/gram-color.png);
+.footer-links {
+    width: 90%;
+    margin: 10px auto;
 }
+
+.footer-links li a:hover {
+    background-color: #f3f3f3;
+    
+}
+

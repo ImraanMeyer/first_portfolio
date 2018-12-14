@@ -48,7 +48,6 @@ Tools:
 2018-12-07:
 - Navbar updated
 - Footer Created
-- Implemented Grid
 - Updated Readme file
 
 2018-12-11:
@@ -65,7 +64,8 @@ Tools:
 - Updated skills section with imgs
 
 2018-12-14
-- 
+- Created active scroll to top link
+- Final updated on skills hover effect
 
 ## Contributors
 
