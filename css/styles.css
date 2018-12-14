@@ -8,7 +8,7 @@ body {
 
     line-height: 1.6em;
     margin: 0;
-    background-color: lightgrey;
+    background-color: dimgrey;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -37,8 +37,12 @@ body {
     background-blend-mode: lighten;
 }
 
-.title {
+.title,
+.heading-2 {
     color: #DECBB7;
+}
+
+.title {
     font-size: 46px;
     text-align: center;
     margin: 0;
@@ -90,7 +94,8 @@ li a:hover {
 }
 
 li a:active {
-    background-color: #32425E;
+    background-color: #f3f3f3;
+    color: #57647B;
     transition: 0.8s
 }
 
@@ -196,9 +201,8 @@ div img {
     width: 40px;
     height: 40px;
     margin: 1px auto;
-    background-color: #57647B ;
+    background-color: #f3f3f3 ;
     border-radius: 3em;
-    border:gray 0.10rem 0.1rem ;  
     bottom: 40px;
     right: 50px;
     transition: ease-out 0.2s;
