@@ -8,7 +8,7 @@
 
 ## Live Link
 
-- https://imraanmeyer.github.io/online_cv/online_cv.html
+
 
 ## Prevalent Technologies Used
 
