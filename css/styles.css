@@ -26,28 +26,46 @@ body {
 }
 
 .site-header {
-    height: 200px;
+    height: 90vh;
     margin: 0;
-    background-color: #32425ed4;
+    background-repeat: cover;
     overflow: hidden;
-    padding: 10px 10px 60px 10px;
-    background-image: url(../images/header-bg.svg);
+    /* padding: 10px 10px 60px 10px; */
+    /* background-image: url(../images/header-bg.svg); */
     background-size: 100%;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
+    background-color: #32425ed4;
+}
+
+#main-heading {
+    margin: 2px;
+    padding: 50vh;
+
 }
 
 .title,
-.heading-2 {
+.heading-2, {
     color: #DECBB7;
+}
+
+#sub-title {
+    padding: 0 30% 0 30%;
+    text-align: center;
+    margin: 0;
+    padding: 0 auto;
+    padding-top: 1%;
+
 }
 
 .title {
     font-size: 46px;
     text-align: center;
     margin: 0;
-    padding: 1.5em 0;
-    letter-spacing: 1.35rem;
+    padding: 0.6em 0;
+    padding-top: 1.5em;
+    letter-spacing: 0.90rem;
+    word-spacing: 0.50rem;
 }
 
 .heading-2 {
@@ -57,19 +75,49 @@ body {
 
 }
 
-nav {
+/*****************************  NAV BAR    *****************/
+#navbar {
+    overflow: hidden;
+
+    background-repeat: no-repeat;
+    background-image: url(../images/header-bg.svg);
+    background-size: 100%;
+    background-blend-mode: lighten;
+    background-color: #32425ed4;
+    /* background-color: rgb(109, 109, 109);  */
+}
+/* 
+.portfolio-container {
+    padding: 16px;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .portfolio-container {
+    padding-top: 60px;
+} */
+
+
+
+nav ul {
     display: contents ;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-size: 0.8em;
     width: 90%;
     margin: 10px auto;
+    height: 10%;
 }
 
 ul li {
+    padding-top: 1.9em;
     text-decoration: none;
     margin-left: 30%;
-    padding-bottom: 2em;
+    padding-bottom: 6em;
     list-style-type: none;
 }
 
@@ -99,6 +147,8 @@ li a:active {
     transition: 0.8s
 }
 
+
+
 /* CV CONTENT */
 
 #custom-text {
@@ -125,6 +175,9 @@ li a:active {
     transition: 0.2s ease-in-out;
 }
 
+.main {
+
+}
 
 .container-about,
 .container-skills,
@@ -190,12 +243,12 @@ div img {
 .logo-png:hover {
     height: 12em;
     width: 12em;
-    background-color: #f3f3f3; 
+    background-color: #f3f3f3;
     transition: 0.3s ease-out;
 }
 
 #go-to-top {
-    display: none;
+    display: none ;
     z-index: 99;
     position: fixed;
     width: 40px;
@@ -234,6 +287,5 @@ div img {
 
 .footer-links li a:hover {
     background-color: #f3f3f3;
-    
-}
 
+}
