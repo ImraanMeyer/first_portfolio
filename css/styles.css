@@ -30,8 +30,8 @@ body {
     margin: 0;
     background-repeat: cover;
     overflow: hidden;
-    /* padding: 10px 10px 60px 10px; */
-    /* background-image: url(../images/header-bg.svg); */
+    padding: 25vh 0 0 0;
+    background-image: url(../images/rain.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
