@@ -26,7 +26,7 @@ body {
 }
 
 .site-header {
-    height: 90vh;
+    height: 60vh;
     margin: 0;
     background-repeat: cover;
     overflow: hidden;
@@ -36,6 +36,11 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: lighten;
     background-color: #32425ed4;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #main-heading {
@@ -59,11 +64,11 @@ body {
 }
 
 .title {
-    font-size: 46px;
+    font-size: 5em;
     text-align: center;
     margin: 0;
     padding: 0.6em 0;
-    padding-top: 1.5em;
+    padding-top: 48px;
     letter-spacing: 0.90rem;
     word-spacing: 0.50rem;
 }
@@ -78,6 +83,9 @@ body {
 /*****************************  NAV BAR    *****************/
 #navbar {
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    transition: 0.4s;
 
     background-repeat: no-repeat;
     background-image: url(../images/header-bg.svg);
@@ -86,6 +94,19 @@ body {
     background-color: #32425ed4;
     /* background-color: rgb(109, 109, 109);  */
 }
+
+@media screen and (max-width: 580px) {
+    #navbar {
+      padding: 2em 0 !important;
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+      font-size: 0.2em;
+  }
+}
+
 /* 
 .portfolio-container {
     padding: 16px;
@@ -113,11 +134,10 @@ nav ul {
     height: 10%;
 }
 
-ul li {
-    padding-top: 1.9em;
+#navbar ul li {
+    /* padding-top: 1.9em 0 6em 0; */
     text-decoration: none;
     margin-left: 30%;
-    padding-bottom: 6em;
     list-style-type: none;
 }
 
@@ -126,7 +146,7 @@ li a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875em 1em;
     float: left;
     display: inline;
     color: #DECBB7;
@@ -146,6 +166,7 @@ li a:active {
     color: #57647B;
     transition: 0.8s
 }
+
 
 
 
@@ -184,7 +205,7 @@ li a:active {
 .container-edu,
 .container-work {
     background-color:  #f5f5f587;
-    margin:50px 30px 0 30px ;
+    margin:50px 0 0 0 ;
     padding: 2em 6em;
     height: 0 auto;
 }
@@ -215,7 +236,7 @@ li a:active {
 .education:hover,
 .work-xp:hover {
     border-radius: 1em;
-    transition: 0.2s ease-out;
+    transition: 0.4s ease-out;
 }
 
 
@@ -235,7 +256,7 @@ div img {
     display: inline-block;
     padding: 2%;
     border-radius: 0.4em;
-    background: #f3f3f3d4;
+    background: #9398a0cf;
     margin-bottom: 1em;
     transition: 0.3s ease-in;
 }
@@ -265,6 +286,19 @@ div img {
     background-color:#FE5F55 ;
     transition: ease-in 0.2s;
 }
+
+#go-to-top:active {
+    background-color: #7DAAA2;
+    transition: 1s;
+}
+
+/* EDUCATION HISTORY */
+.work-xp ol {
+    list-style-type: none;
+    text-align: left;
+}
+
+
 
 /********************************************************************************************************************                                                       FOOTER  ******************************************************************************************************************/
 

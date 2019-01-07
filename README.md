@@ -8,12 +8,13 @@
 
 ## Live Link
 
-
+https://imraanmeyer.github.io/online_cv/online_cv.html/
 
 ## Prevalent Technologies Used
 
  - HTML
  - CSS
+ - JS
 
 
 ### Other Technologies Used
@@ -67,6 +68,11 @@ Tools:
 - Created active scroll to top link
 - Final updated on skills hover effect
 - Footer content updated (inc)
+
+2019-01-7
+- Updated work xp contnet
+- Updated splash screen
+- Updated nav bar js animations
 
 ## Contributors
 
