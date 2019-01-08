@@ -69,10 +69,14 @@ Tools:
 - Final updated on skills hover effect
 - Footer content updated (inc)
 
-2019-01-7
+2019-01-07
 - Updated work xp contnet
 - Updated splash screen
 - Updated nav bar js animations
+
+2019-01-08
+- Added media queries for responsive design ***
+- Updated nvabar content ***
 
 ## Contributors
 

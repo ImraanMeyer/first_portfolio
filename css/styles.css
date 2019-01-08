@@ -1,6 +1,6 @@
 html {
-    scroll-behavior: smooth;
-    transition: 0.1s;
+    scroll-behavior:  smooth;
+    transition: 0.2s ease-in-out;
     color: #DECBB7;
 }
 
@@ -26,11 +26,12 @@ body {
 }
 
 .site-header {
-    height: 60vh;
+    height: 100vh;
     margin: 0;
     background-repeat: cover;
     overflow: hidden;
-    padding: 25vh 0 0 0;
+    padding: 4em 0 0 0;
+    /* background-attachment:  fixed url(../header-bg.mp4); */
     background-image: url(../images/rain.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -55,6 +56,7 @@ body {
 }
 
 #sub-title {
+    font-size: 2.4em;
     padding: 0 30% 0 30%;
     text-align: center;
     margin: 0;
@@ -80,6 +82,18 @@ body {
 
 }
 
+#sub-descrip-txt {
+    box-sizing: border-box;
+
+    padding-top: 6em;
+    margin-bottom: 1; 
+    box-lines: 1.6em;
+    transition: 0.4s;
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: solid underline #FE5F55;
+}
+
 /*****************************  NAV BAR    *****************/
 #navbar {
     overflow: hidden;
@@ -95,35 +109,6 @@ body {
     /* background-color: rgb(109, 109, 109);  */
 }
 
-@media screen and (max-width: 580px) {
-    #navbar {
-      padding: 2em 0 !important;
-    }
-    #navbar a {
-      float: none;
-      display: block;
-      text-align: left;
-      font-size: 0.2em;
-  }
-}
-
-/* 
-.portfolio-container {
-    padding: 16px;
-  }
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .portfolio-container {
-    padding-top: 60px;
-} */
-
-
-
 nav ul {
     display: contents ;
     margin: 0;
@@ -137,7 +122,7 @@ nav ul {
 #navbar ul li {
     /* padding-top: 1.9em 0 6em 0; */
     text-decoration: none;
-    margin-left: 30%;
+    margin-left: 375px;
     list-style-type: none;
 }
 
@@ -200,6 +185,7 @@ li a:active {
 
 }
 
+.container-portfolio,
 .container-about,
 .container-skills,
 .container-edu,
@@ -211,7 +197,8 @@ li a:active {
 }
 
 .about-me,
-.education {
+.skills,
+.work-xp {
     margin: 2em;
     background-color: #7DAAA2;
     text-align: center;
@@ -220,8 +207,8 @@ li a:active {
     transition: 0.2s ease-out;
 }
 
-.skills,
-.work-xp {
+.portfolio-content,
+.education {
     margin: 2em;
     background-color: #57647B;
     text-align: center;
@@ -322,4 +309,94 @@ div img {
 .footer-links li a:hover {
     background-color: #f3f3f3;
 
+}
+
+
+
+/* mediaaaaaa qqq */
+@media (max-width: 1024px) {
+    #navbar ul li {
+        margin-left: 195px;
+    }
+
+    .title {
+        font-size: 3em;
+    }
+
+    #sub-title {
+        font-size: 1.6em;
+    }
+
+    #sub-descrip-txt {
+    font-size: 1em;
+    padding-top: 3em;
+    }
+
+}
+
+@media (max-width: 640px) {
+    #navbar ul li {
+        margin-left: 30px;
+    }
+
+    #navbar {
+        padding: 0 !important
+    }
+
+    #sub-title {
+        font-size: 1.2em;
+    }
+
+    .container-portfolio,
+    .container-about,
+    .container-skills,
+    .container-edu,
+    .container-work {
+    background-color:  #f5f5f587;
+    margin:50px 0 0 0 ;
+    padding: 1vh;
+    height: 0 auto;
+}
+
+@media screen and (max-width: 580px) {
+    #navbar a {
+      float: none;
+      text-align: left;
+      font-size: 0.87em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    #navbar ul li {
+        margin-left: 40px;
+    }
+
+    #navbar a {
+      float: none;
+      text-align: left;
+      font-size: 0.70em;
+    }
+
+    title {
+        font-size: 2em;
+    }
+
+    #sub-title {
+        padding: 1em 0 0 0;
+    }
+
+    #sub-descrip-txt {
+        font-size: 0.9em;
+        padding-top: 1.6em;
+    }
+
+    .logo-png {
+        height: 4.6em;
+        width: 4.6em;
+    }
+
+    div img {
+        height: 4em;
+        width: 4em;
+    }
 }
