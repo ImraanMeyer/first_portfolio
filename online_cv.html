@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script src="js/main.js" charset="utf-8"></script>
-    <!-- <script src="js/shrink-nav.js" charset="utf-8"></script> -->
 
 </head>
 
@@ -59,37 +59,45 @@
         <!-- ABOUT ME CONTAINER (content!!!) -->
         <div class="container-about" id="about-me-link">
             <section class="about-me" >
-                <div id="custom-text">
-                    <h2 class="heading-2">About Me</h2>
-                    <p >
-                        Always trying my hardest and best to achieve my goals. 
-                    </p>
-                    <p>
-                        I consider myself to be a hardworker, adaptable, trustworthy and has a mindset where I welcome new challenges!
-                    </p>
-                </div>
+                    <div data-aos="zoom-in-right" data-aos-duration="300" class="fade">
+                            <img class="gifs a" src="images/animat-essential/lightbulb/animat-lightbulb-color.gif" alt="lightbulb">
+                             
+                        <div class="about-me-text">
+                            <h2 class="heading-2">About Me</h2>
+                            
+                            <p >
+                            Always trying my hardest and best to achieve my goals. 
+                            </p>
+                        
+                            <p>
+                            I consider myself to be a hardworker, adaptable, trustworthy and has a mindset where I welcome new challenges!
+                            </p>
+                        </div>
+
+                    
+                    </div>
             </section>
         </div>
 
         <!-- MY PORTFOLIO OF ALL THE CODING WORK I HAVE DONE -->
         <div class="container-portfolio" id="portfolio-link">
                 <section class="portfolio-content" >
-                    <div id="custom-text">
+                    <div class="portfolio-text">
                         <h2 class="heading-2">Portfolio</h2>
                         
-                            <!-- <div class="logo-png"> -->
-                                Project 1
+                            <div class="portfolio-item first">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             </div>
 
-                            <!-- <div class="logo-png"> -->
+                            <div class="portfolio-item second">
                                 Project 2
                             </div>
 
-                            <!-- <div class="logo-png"> -->
+                            <div class="portfolio-item third">
                                 Project 3
                             </div>
 
-                            <!-- <div class="logo-png"> -->
+                            <div class="portfolio-item fourth">
                                     Project 4
                             </div>
                 </section>
@@ -98,9 +106,9 @@
         <!-- MY SKILLS CONTAINER -->
         <div class="container-skills" id="skills-link">
             <section class="skills">
-                    <div id="skills-logo">
-
+                    <div data-aos="zoom-in-left" data-aos-duration="300" class="skills-text">
                         <h2 class="heading-2">Skills</h2>
+                    </div>
 
                         <div class="logo-png">
                             <img src="images/icons/html.png" alt="">
@@ -125,17 +133,22 @@
         <!-- EDCUATION CONTAINER -->
         <div class="container-edu" id="education-link">
             <section class="education">
-                <div id="custom-text">
-                    <h2 class="heading-2">Education History</h2>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-center">
+                    <img class="gifs b" src="images/animat-essential/animat-essential/pencil/animat-pencil-color.gif" alt="">
+                    <img class="gifs c" src="images/animat-essential/animat-essential/line-chart/animat-linechart-color.gif" alt="">
 
-                    <p>
-                        Life Choices (CodeSpace) - <strong>2018</strong>
-                    </p>
+                    <div class="education-text">
+                        <h2 class="heading-2">Education History</h2>
 
-                    <p>
-                        Islamia College (Matric) - <strong>2015</strong>
-                    </p>
+                        <p>
+                            Life Choices (CodeSpace) - <strong>2018</strong>
+                        </p>
 
+                        <p>
+                            Islamia College (Matric) - <strong>2015</strong>
+                        </p>
+
+                    </div>
                 </div>
             </section>
         </div>
@@ -143,7 +156,7 @@
         <!-- WORK EXPERIENCE CONTAINER -->
         <div class="container-work" id="work-link">
             <section class="work-xp">
-                    <div id="custom-text">
+                    <div class="work-text">
 
                             <h2 class="heading-2">Work Experience</h2>
 
@@ -217,5 +230,9 @@
     </footer>
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

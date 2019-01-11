@@ -78,6 +78,10 @@ Tools:
 - Added media queries for responsive design ***
 - Updated nvabar content ***
 
+2019-01-10 
+- Navbar updated
+- About me content updated
+
 ## Contributors
 
 - Imraan Meyer - 2018

@@ -87,8 +87,8 @@ body {
 
 .heading-2 {
     padding: 0;
-    font-size: 2.6em;
-    margin: 0 0 0.3em 0;
+    font-size: 2.8em;
+    margin: 1.2em 0 1.2em 0;
 }
 
 #sub-descrip-txt {
@@ -105,7 +105,7 @@ body {
 
 /*****************************  NAV BAR    *****************/
 #navbar {
-    height: 4.6em;
+    padding: 2.4em 0 2.4em 0;
     overflow: hidden;
     position: sticky;
     top: 0;
@@ -119,14 +119,10 @@ body {
     /* #57647bd9;  */
     /* #32425ed4; */
     /* background-color: rgb(109, 109, 109);  */
-}
-
-.back {
-    height: 3.5em;
-  }
-  
+} 
 
 nav ul {
+    
     display: contents ;
     margin: 0;
     /* overflow: hidden; */
@@ -138,7 +134,7 @@ nav ul {
 
 #navbar ul li {
     /* padding-top: 1.9em 0 6em 0; */
-    margin-top: 2.15em;
+    /* margin-top: 2.15em; */
     text-decoration: none;
     margin-left: 375px;
     list-style-type: none;
@@ -190,22 +186,38 @@ All palettes
 
 /* CV CONTENT */
 
-#custom-text {
+.custom-text {
     padding: 2em;
     color: #DECBB7;
     transition: 0.2s ease-out;
 }
 
-#custom-text:hover {
-    padding: 4em;
+.about-me-text {
+    margin-right: 580px !important;
+}
+
+.education-text {
+    margin-left: 580px;
+    margin-right: 2.8em !important;
+    text-align: right;
+}
+ 
+.about-me-text,
+.skills-text,
+.portfolio-text,
+.work-text {
+    margin-left: 2.8em !important;
+}
+.custom-text:hover {
+    /* padding: 4em; */
     transition: 0.2s ease-in-out;
-    font-size: 1.2em;
-    line-height: 1.6em;
+    /* font-size: 1.2em; */
+    /* line-height: 1.6em; */
 }
 
 #skills-logo {
-    padding: 2em;
-    color: #DECBB7;
+    /* padding: 2em; */
+    /* color: #DECBB7; */
     transition: 0.2s ease-out;
 }
 
@@ -224,35 +236,57 @@ All palettes
 .container-edu,
 .container-work {
     background-color:  #f5f5f587;
-    margin:50px 0 0 0 ;
-    padding: 2em 6em;
+    /* margin:50px 0 0 0 ; */
+    padding: 2em 64px 2em 64px;
     height: 0 auto;
 }
 
 .about-me,
+.portfolio-content,
+.skills,
+.education,
+.work-xp {
+    margin: 2em 0 2em 0;
+    padding: 1em;
+    text-align: left;
+}
+
+.skills {
+    text-align: center;
+}
+
+  
+.about-me,
 .skills,
 .work-xp {
-    margin: 2em;
     background-color: #7DAAA2;
-    text-align: center;
     border: 2px #7DAAA2;
-    border-radius: 2em;
-    transition: 0.2s ease-out;
 }
 
 .portfolio-content,
 .education {
-    margin: 2em;
     background-color: #57647B;
-    text-align: center;
-    border: 2px #7DAAA2;
+    border: 2px #57647B;
+}
+
+/* HEIGHT OF THE AIR BUBBLES */
+.about-me,
+.portfolio-content,
+.education, 
+.work-xp, 
+.skills {
+    height: 60vh;
     border-radius: 2em;
     transition: 0.2s ease-out;
 }
 
+.work-xp {
+    height: auto !important;
+}
+
 
 .about-me:hover,
-.skills:hover,
+/* .skills:hover, */
 .education:hover,
 .work-xp:hover {
     border-radius: 1em;
@@ -270,7 +304,9 @@ div img {
 
 
 .logo-png {
-    margin-top: 1.6em;
+    margin: 1.2em 0.6em 1.6em 2.4em;
+
+    /* margin-top: 1.6em; */
     height: 11em;
     width: 11em;
     display: inline-block;
@@ -288,8 +324,43 @@ div img {
     transition: 0.3s ease-out;
 }
 
+.gifs.a{
+    margin-right: 160px;
+    float: right;
+}
+
+.gifs.b {
+    float: left;
+    margin-left: 160px;
+}
+
+.gifs.c {
+    float: left;
+}
+
+.gifs{
+    height: 12em ;
+    width: 12em ;
+    
+}
+
+.portfolio-item {
+    color: #000;
+    margin: 2em;
+    /* margin: 0em 0 2em 0; */
+    padding: 0;
+    height: 12em;
+    width: 12em;
+    background-color: #f3f3f3;
+    transition: 0.3s ease-out;
+    display: inline-block;
+
+    
+
+}
+
 #go-to-top { 
-    /* display: none ; */
+    display: none ;
     z-index: 99;
     position: fixed;
     width: 40px;
@@ -326,13 +397,14 @@ div img {
 .site-footer {
     background-color: #32425ed4;
     height: 60px;
-    margin: 2em 0 0 0;
+    margin: 0;
     overflow: hidden;
     padding: 60px 10px;
-    background-image: url(../images/header-bg.svg);
-    background-size: 100%;
     background-repeat: no-repeat;
+    /* background-image: url(../images/header-bg.svg); */
+    background-size: 100%;
     background-blend-mode: lighten;
+    background-color: #f5f5f5;
 }
 
 .footer-links {
@@ -381,6 +453,7 @@ div img {
         font-size: 1.2em;
     }
 
+    
     .container-portfolio,
     .container-about,
     .container-skills,
@@ -432,5 +505,19 @@ div img {
     div img {
         height: 4em;
         width: 4em;
+    }
+}
+
+@media screen and (max-height: 2280px){
+    #navbar ul li {
+        margin-left: 240px;
+    }
+
+    .about-me, 
+    .portfolio-content, 
+    .education, 
+    .work-xp, 
+    .skills {
+        height: auto;
     }
 }

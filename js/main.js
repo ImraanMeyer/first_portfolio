@@ -12,15 +12,9 @@ function scrollFunction() {
 
 // Shrink on scroll navbar // 
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navbar").style.padding = "auto";
-        document.getElementById("navbar").style.height = "2.8em"
-        document.getElementsByTagName("li").style.marginTop = "0.8em"
-        // document.getElementsByTagName("a").style.padding = "0";
-        // document.getElementsByTagName("ul li").style.padding= "0.95em 0 0 0";
+        document.getElementById("navbar").style.padding = "1.2em 0 1.2em 0";
+        
     } else {
-      document.getElementById("navbar").style.padding = "0em";
-      document.getElementById("navbar").style.height = "4.6em"
-      document.getElementsByTagName("li").style.marginTop = "2.15em"
-    //   document.getElementsByTagName("ul li").style.padding=  "1.9 0 0 0";
+      document.getElementById("navbar").style.padding = "2.4em 0 2.4em 0";
     }
 }
