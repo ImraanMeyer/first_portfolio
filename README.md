@@ -82,6 +82,11 @@ Tools:
 - Navbar updated
 - About me content updated
 
+2019-01-12
+- Updated aos 
+- Color scheme updated 
+- 
+
 ## Contributors
 
 - Imraan Meyer - 2018

@@ -338,17 +338,21 @@ div img {
 .gifs.b {
     float: left;
     margin-left: 160px;
+    margin-top: 4em ;
 }
 
 .gifs.c {
     float: left;
-    margin-top: 16px;
+    margin-top: 4em;
 }
 
 .gifs.d {
     float: right;
     margin-right: 160px;
+    margin-top: 0 !important;
 }
+
+
 
 .gifs{
     margin-top: 5em;
@@ -466,7 +470,7 @@ input:hover {
 
 
 /* mediaaaaaa qqq */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     #navbar ul li {
         margin-left: 195px;
     }
@@ -565,5 +569,103 @@ input:hover {
     .work-xp, 
     .skills {
         height: auto;
+    }
+} */
+
+/* Show in Large desktops and laptops */
+@media (min-width: 1200px) {
+
+    .body-parallax {
+    
+        background-image: url(../images/grey-min.jpg);
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/*Hide in Other Small Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .body-parallax {
+      background-image: none;
+
+  }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+          .body-parallax {
+        background-image: none;
+    }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .body-parallax {
+  background-image: none;
+}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    .body-parallax {
+  background-image: none;
+}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    .body-parallax {  
+        background-image: none;
+    }
+
+    #navbar ul li {
+        margin-left: 0px;
+        font-size: 0.8em;
+    }
+
+    .title {
+        font-size: 4em;
+        letter-spacing: 0;
+    }
+
+    #sub-title {
+        font-size: 1.6em;
+        padding: 0;
+    }
+
+    .container-about,
+    .container-edu,
+    .container-portfolio,
+    .container-skills,
+    .container-work {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .about-me,
+    .education,
+    .portfolio-content,
+    .skills,
+    .work-xp {
+        border-radius: unset
+    }
+
+    .gifs.a {
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0;
     }
 }
