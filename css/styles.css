@@ -137,8 +137,12 @@ nav ul {
     /* padding-top: 1.9em 0 6em 0; */
     /* margin-top: 2.15em; */
     text-decoration: none;
-    margin-left: 375px;
+    /* margin-left: 375px; */
     list-style-type: none;
+
+    
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -572,6 +576,14 @@ input:hover {
     }
 } */
 
+@media (max-width: 1080px) {
+    #navbar ul li {    
+        margin-left: 240px;
+        margin-right: 240px;
+    }
+}
+
+
 /* Show in Large desktops and laptops */
 @media (min-width: 1200px) {
 
@@ -633,6 +645,7 @@ input:hover {
     #navbar ul li {
         margin-left: 0px;
         font-size: 0.8em;
+        display: contents;
     }
 
     .title {
@@ -643,6 +656,10 @@ input:hover {
     #sub-title {
         font-size: 1.6em;
         padding: 0;
+    }
+
+    .heading-2 {
+        margin-top: 1em;
     }
 
     .container-about,
@@ -660,7 +677,7 @@ input:hover {
     .portfolio-content,
     .skills,
     .work-xp {
-        border-radius: unset
+        border-radius: unset;
     }
 
     .about-me-text,
@@ -669,6 +686,7 @@ input:hover {
     .skills,
     .work-xp {    
         width: 90%;
+        margin-left: 800px 
     }
 
     .portfolio-text{
