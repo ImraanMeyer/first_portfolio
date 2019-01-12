@@ -663,9 +663,30 @@ input:hover {
         border-radius: unset
     }
 
+    .about-me-text,
+    .portfolio-text,
+    .education-text,
+    .skills,
+    .work-xp {    
+        width: 90%;
+    }
+
+    .portfolio-text{
+        display: inline-block;
+        height: auto;
+    }
+
     .gifs.a {
         padding-left: 0px;
         margin-left: 0px;
         margin-right: 0;
+        margin-top: 130px;
+        margin-bottom: 40px;
+        height: 8em;
+        width: 8em;
+    }
+
+    p {
+        word-spacing: 0.2em
     }
 }
