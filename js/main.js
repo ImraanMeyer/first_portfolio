@@ -18,3 +18,4 @@ function scrollFunction() {
       document.getElementById("navbar").style.padding = "2.4em 0 2.4em 0";
     }
 }
+

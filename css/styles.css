@@ -110,6 +110,7 @@ body {
     position: sticky;
     top: 0;
     transition: 0.4s;
+    z-index: 1;
 
     background-repeat: no-repeat;
     /* background-image: url(../images/header-bg.svg); */
@@ -200,6 +201,10 @@ All palettes
     margin-left: 580px;
     margin-right: 2.8em !important;
     text-align: right;
+}
+
+.work-text {
+    margin-right: 560px;
 }
  
 .about-me-text,
@@ -315,6 +320,7 @@ div img {
     background: #9398a0cf;
     margin-bottom: 1em;
     transition: 0.3s ease-in;
+    z-index: 1;
 }
 
 .logo-png:hover {
@@ -336,12 +342,18 @@ div img {
 
 .gifs.c {
     float: left;
+    margin-top: 16px;
+}
+
+.gifs.d {
+    float: right;
+    margin-right: 160px;
 }
 
 .gifs{
+    margin-top: 5em;
     height: 12em ;
     width: 12em ;
-    
 }
 
 .portfolio-item {
@@ -392,29 +404,63 @@ div img {
 
 
 
+
 /********************************************************************************************************************                                                       FOOTER  ******************************************************************************************************************/
 
 .site-footer {
+    height: 10em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    color: #000;
     background-color: #32425ed4;
-    height: 60px;
+    /* height: 60px; */
     margin: 0;
     overflow: hidden;
-    padding: 60px 10px;
+    /* padding: 60px 10px; */
     background-repeat: no-repeat;
     /* background-image: url(../images/header-bg.svg); */
     background-size: 100%;
     background-blend-mode: lighten;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5 ;
+
 }
 
 .footer-links {
     width: 90%;
     margin: 10px auto;
+    list-style: none;
+    margin-left: 560px;
 }
 
 .footer-links li a:hover {
-    background-color: #f3f3f3;
+    background-color: #E4572E;
+}
 
+.footer-a-tags {
+    padding-top: 30px;
+    padding-right: 14px;
+}
+
+.footer-imgs {
+    color: #E4572E;
+}
+
+input {
+    height: 3em;
+    border-radius: 0.6em;
+    border: none;
+    outline: none;
+    background-color: #57647B;
+    width: 8em;
+    margin-left: 612px;
+    margin-top: 2em;
+    font-family: inherit;
+}
+
+input:hover {
+    background-color:#E4572E ;
+    transition: ease-in 0.2s;
+    color: #f5f5f5;
 }
 
 
