@@ -17,7 +17,7 @@ body {
 
     line-height: 1.6em;
     margin: 0;
-    background-color: dimgrey;
+    background-color: #d6d6d6;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -723,6 +723,8 @@ input:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
+
     #navbar ul li {
         display: inline;
         width: 100%;
@@ -739,20 +741,36 @@ input:hover {
         font-size: 2em;
     }
 
-    .container-about {
+    .container-about,
+    .container-portfolio {
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    .about-me {
+    .about-me,
+    .portfolio-content {
         border-radius: 0;
     }
 
-    .about-me-text {
+    .about-me-text,
+    .portfolio-text {
         display: " "
     }
 
+    .education-text {
+        margin-left: 0;
+    }
+
+
     .gifs.a {
         margin-right: 16px;
+    }
+
+
+    .portfolio-item {
+        margin: 0;
+        height: 10em;
+        width: 10em;
+        position: absolute;
     }
 }
