@@ -298,7 +298,7 @@ All palettes
 /* .skills:hover, */
 .education:hover,
 .work-xp:hover {
-    border-radius: 1em;
+    /* border-radius: 1em; */
     transition: 0.4s ease-out;
 }
 
@@ -679,6 +679,19 @@ input:hover {
     .work-xp {
         border-radius: unset;
     }
+    
+    .portfolio-content {
+        height: auto;
+    }
+
+    .portfolio-item {
+        display: inline-block;
+        margin: 0 0 1em 0;
+    }
+
+    .skills {
+        margin-left: 0;
+    }
 
     .about-me-text,
     .portfolio-text,
@@ -706,5 +719,40 @@ input:hover {
 
     p {
         word-spacing: 0.2em
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar ul li {
+        display: inline;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .title {   
+        font-size: 4em;
+        letter-spacing: 0;
+    }
+
+    #sub-title {
+        padding: 0.6em 0 0 0;
+        font-size: 2em;
+    }
+
+    .container-about {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .about-me {
+        border-radius: 0;
+    }
+
+    .about-me-text {
+        display: " "
+    }
+
+    .gifs.a {
+        margin-right: 16px;
     }
 }
