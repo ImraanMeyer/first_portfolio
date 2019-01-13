@@ -281,6 +281,7 @@ All palettes
 /* HEIGHT OF THE AIR BUBBLES */
 .about-me,
 .education, 
+.portfolio-content,
 .work-xp, 
 .skills {
     height: 60vh;
@@ -294,7 +295,8 @@ All palettes
     /* margin: 0 auto; */
 }
 
-.work-xp {
+.work-xp,
+.skills {
     height: auto !important;
 }
 
@@ -477,7 +479,7 @@ input {
     outline: none;
     background-color: #57647B;
     width: 8em;
-    margin-left: 612px;
+    text-align: center;
     margin-top: 2em;
     font-family: inherit;
 }
@@ -528,16 +530,42 @@ input:hover {
         width: 6em;
     }
 
+    .container-about,
+    .container-edu,
+    .container-portfolio,
+    .container-skills,
+    .container-work {
+        padding: 2em 0;
+    }
+
+    .about-me,
+    .education,
+    .portfolio-content,
+    .skills,
+    .work-xp {
+        border-radius: 0;
+    }
+
     .about-me-text {
         margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
     .about-me-text p {
-        font-size: 0.6em;
+        font-size: 1em;
+    }
+
+    .gifs.a {
+        margin-right: 0;
+        margin-bottom: 60px;
     }
 
     .footer-links,
     .education-text {
-        margin-left: 0;
+        margin-left: 0 ;
+    }
+
+    .input {
+        margin-left: 0px !important;
     }
 }
