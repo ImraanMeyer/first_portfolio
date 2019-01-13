@@ -126,13 +126,14 @@ nav ul {
     display: contents ;
     margin: 0;
     /* overflow: hidden; */
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
     width: 90%;
     margin: 10px auto;
     height: 10%;
 }
 
 #navbar ul li {
+    font-size: 0.8em;
     /* padding-top: 1.9em 0 6em 0; */
     /* margin-top: 2.15em; */
     text-decoration: none;
@@ -489,15 +490,17 @@ input:hover {
 
 /* mobile devices */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
+    
     #navbar ul li {
         margin: 0 auto;
+        font-size: 0.5em !important;
     }
 
     #navbar ul {
         text-align: center;
-        font-size: 0.4em;
     }
+     
 
     .title {
         font-size: 2.6em;
