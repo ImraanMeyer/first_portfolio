@@ -490,7 +490,10 @@ input:hover {
 
 /* mobile devices */
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
+    .body-parallax {
+        background-image: none;
+    }
     
     #navbar ul li {
         margin: 0 auto;
