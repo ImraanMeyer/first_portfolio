@@ -525,6 +525,10 @@ input:hover {
         padding-top: 2.6EM;
     }
 
+    .heading-2 {
+        padding-right: 4em;
+    }
+
     .gifs.a {
         height: 6em;
         width: 6em;
@@ -549,6 +553,7 @@ input:hover {
     .about-me-text {
         margin-left: 0 !important;
         margin-right: 0 !important;
+        word-spacing: 0.2em;
     }
 
     .about-me-text p {
@@ -556,9 +561,10 @@ input:hover {
     }
 
     .gifs.a {
-        margin-right: 0;
+        margin-right: 2em;
         margin-bottom: 4.6em;
         margin-top: 8em;
+        margin-left: 0.4em;
     }
 
     .footer-links,
