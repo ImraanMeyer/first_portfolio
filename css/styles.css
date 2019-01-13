@@ -497,13 +497,16 @@ input:hover {
     
     #navbar ul li {
         margin: 0 auto;
-        font-size: 0.4em !important;
+        font-size: 0.5em !important;
     }
 
     #navbar ul {
         text-align: center;
     }
-     
+    
+    li a {
+        padding: 0.6em;
+    }
 
     .title {
         font-size: 2.6em;
@@ -531,5 +534,10 @@ input:hover {
 
     .about-me-text p {
         font-size: 0.6em;
+    }
+
+    .footer-links,
+    .education-text {
+        margin-left: 0;
     }
 }
