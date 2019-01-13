@@ -492,6 +492,91 @@ input:hover {
 
 /* mobile devices */
 
+@media only screen and (max-width: 420px) {
+    .body-parallax {
+        background-image: none;
+    }
+    
+    #navbar ul li {
+        margin: 0 auto;
+        font-size: 0.5em !important;
+    }
+
+    #navbar ul {
+        text-align: center;
+    }
+    
+    li a {
+        padding: 0.6em;
+    }
+
+    .title {
+        font-size: 2.6em;
+        text-align: center;
+        letter-spacing: 0;
+    }
+
+    #sub-title {
+        font-size: 1.2em;
+    }
+
+    #sub-descrip-txt {
+        font-size: 0.8em;
+        padding-top: 2.6EM;
+    }
+
+    .heading-2 {
+        padding-right: 0 !important;
+    }
+
+    .gifs.a {
+        height: 6em;
+        width: 6em;
+    }
+
+    .container-about,
+    .container-edu,
+    .container-portfolio,
+    .container-skills,
+    .container-work {
+        padding: 2em 0;
+    }
+
+    .about-me,
+    .education,
+    .portfolio-content,
+    .skills,
+    .work-xp {
+        border-radius: 0;
+    }
+
+    .about-me-text {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        word-spacing: 0.2em;
+    }
+
+    .about-me-text p {
+        font-size: 1em;
+    }
+
+    .gifs.a {
+        margin-right: 2em;
+        margin-bottom: 4.6em;
+        margin-top: 8em;
+        margin-left: 0.4em;
+    }
+
+    .footer-links,
+    .education-text {
+        margin-left: 0 ;
+    }
+
+    .input {
+        margin-left: 0px !important;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .body-parallax {
         background-image: none;
