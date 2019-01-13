@@ -751,6 +751,10 @@ input:hover {
 
 
 @media only screen and (max-width: 320px) {
+    body {
+        width: 100%;
+    }
+
     #navbar ul li {
         font-size: 0.4em !important;
     }
@@ -759,9 +763,17 @@ input:hover {
         background: none;
     }
 
-    .about-me {
+    .about-me,
+    .education,
+    .portfolio-content,
+    .skills,
+    .work-xp {
         padding: 0.6em;
         height: auto;
+    }
+
+    .work-text {
+        margin-right: 0; 
     }
 
     .heading-2 {
@@ -770,6 +782,14 @@ input:hover {
     
     .about-me p {
         font-size: 0.8em;
+    }
+
+    .gifs {
+        margin: 0 ;
+    }
+
+    .gifs.d {
+        margin: 0 !important;
     }
 
     .gifs.a {
