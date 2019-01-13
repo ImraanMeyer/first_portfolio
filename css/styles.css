@@ -813,3 +813,38 @@ input:hover {
         border-radius: 0.6em;
     }
 }
+
+
+@media only screen and (max-width: 320px) {
+    .#navbar ul li {
+        margin: 0 auto;
+        font-size: 0.4em;
+    }
+
+    .title {
+        font-size: 2.6em;
+        text-align: center;
+    }
+
+    #sub-title {
+        font-size: 1.2em;
+    }
+
+    #sub-descrip-txt {
+        font-size: 0.8em;
+        padding-top: 2.6EM;
+    }
+
+    .gifs.a {
+        height: 6em;
+        width: 6em;
+    }
+
+    .about-me-text {
+        margin-left: 0 !important;
+    }
+
+    .about-me-text p {
+        font-size: 0.6em;
+    }
+}

@@ -1,0 +1,23 @@
+.item-a {
+    grid-area: header;
+    /* justify-self: stretch; */
+  }
+  .item-b {
+    grid-area: main;
+  }
+  .item-c {
+    grid-area: sidebar;
+  }
+  .item-d {
+    grid-area: footer;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+  }
