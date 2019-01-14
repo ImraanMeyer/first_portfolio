@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-
+    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="js/main.js" charset="utf-8"></script>
@@ -60,11 +60,10 @@
 
     <main class="cv-container">
         <!-- ABOUT ME CONTAINER !-->
-        <div class="container item-1" id="about-me-link">
+        <div class="container-about" id="about-me-link">
         
-            <div data-aos="zoom-in-right" data-aos-duration="300">
-
-                <section class="sub-item sub-item-1" >
+            <div data-aos="zoom-in-right" data-aos-duration="300" class="fade">
+                <section class="about-me" >
     
                     <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200">
                         <!-- ANIMATED GIF -->
@@ -90,7 +89,7 @@
     
 
                         <!-- MY PORTFOLIO OF ALL THE CODING WORK I HAVE DONE -->
-                        <div class="container item2" id="portfolio-link">
+                        <div class="container-portfolio" id="portfolio-link">
                                 <section data-aos="zoom-in" data-aos-duration="300" class="portfolio-content" >
 
                                     <div class="portfolio-text">
@@ -118,7 +117,7 @@
 
 
         <!-- MY SKILLS CONTAINER -->
-        <div class="container item3" id="skills-link">
+        <div class="container-skills" id="skills-link">
             <section data-aos="zoom-in-left" data-aos-duration="300" class="skills">
                     <div class="skills-text">
                         <h2 class="heading-2">Skills</h2>
@@ -147,7 +146,7 @@
         </div>
 
         <!-- EDCUATION CONTAINER -->
-        <div class="container item4" id="education-link">
+        <div class="container-edu" id="education-link">
             <section data-aos="fade-up" data-aos-duration="300" class="education">
 
                     <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="400">
@@ -174,7 +173,7 @@
         </div>
 
         <!-- WORK EXPERIENCE CONTAINER -->
-        <div class="container item5" id="work-link">
+        <div class="container-work" id="work-link">
             <section class="work-xp">
                 <div data-aos="zoom-in-up" data-aos-duration="300" >
                 <img class="gifs d" src="images/animat-essential/customize/animat-customize-color.gif" alt="">

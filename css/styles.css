@@ -250,6 +250,28 @@ All palettes
     height: 0 auto;
 }
 
+.container {
+    border: 2px;
+    background-color: #f5f5f587;
+    padding: 2em 64px;
+}
+
+.container:nth-child(even) {
+    background-color: #7DAAA2;
+}
+
+.container:nth-child(odd) { 
+    background-color: #57647B;
+}
+
+.sub-item {
+
+}
+
+.sub-item:nth-child(
+    
+)
+
 .about-me,
 .portfolio-content,
 .skills,
@@ -423,6 +445,11 @@ div img {
     transition: 1s;
 }
 
+/* #to-top {
+    width: 40px;
+    height: 40px;
+} */
+
 /* EDUCATION HISTORY */
 .work-xp ol {
     list-style-type: none;
@@ -492,14 +519,14 @@ input:hover {
 
 /* mobile devices */
 
-@media only screen and (max-width: 420px) {
+/* @media only screen and (max-width: 420px) {
     .body-parallax {
         background-image: none;
     }
     
     #navbar ul li {
         margin: 0 auto;
-        font-size: 0.5em !important;
+        font-size: 0.46rem !important;
     }
 
     #navbar ul {
@@ -747,14 +774,31 @@ input:hover {
     .input {
         margin-left: 0px !important;
     }
-}
+} */
 
 
 @media only screen and (max-width: 320px) {
+    .container {
+        border: 2px;
+}
+
+
+    .container:nth-child(even) {
+        background-color: #7DAAA2;
+    }
+
+
+    .container:nth-child(odd) { 
+        background-color: #57647B;
+    }
+
     body {
         width: 100%;
     }
 
+    p {
+        font-size: 0.8em;
+    }
     #navbar ul li {
         font-size: 0.4em !important;
     }
@@ -773,9 +817,12 @@ input:hover {
     }
 
     .work-text {
-        margin-right: 0; 
+        margin-right: 0 !important; 
     }
 
+    ol {
+        padding-left: 0 ;
+    }
     .heading-2 {
         font-size: xx-large;
     }
@@ -799,10 +846,8 @@ input:hover {
         margin-left: 0;
     }
 
-    #go-to-top {
-        right: 70px;
+    .gifs.b {
+        margin-left: 0;
     }
-}
-    
 
 }
