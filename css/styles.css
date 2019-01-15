@@ -170,7 +170,7 @@ li a:active {
     transition: 0.6s
 }
 
-WHITE SMOKE
+/* WHITE SMOKE
 
 #F5F5F5
 DARK SEA GREEN
@@ -185,56 +185,13 @@ DAVY'S GREY
 FLAME
 
 #E4572E
-All palettes 
+All palettes  */
 
 
 
 /* CV CONTENT */
-
-.custom-text {
-    padding: 2em;
-    color: #DECBB7;
-    transition: 0.2s ease-out;
-}
-
-
-.education-text {
-    /* margin-left: 580px; */
-    /* margin-right: 2.8em !important; */
-    /* text-align: right; */
-}
-
-.work-text {
-    margin-right: 560px;
-}
- 
-.about-me-text,
-.skills-text,
-.work-text {
-    margin-left: 2.8em !important;
-}
-.custom-text:hover {
-    /* padding: 4em; */
-    transition: 0.2s ease-in-out;
-    /* font-size: 1.2em; */
-    /* line-height: 1.6em; */
-}
-
-#skills-logo {
-    /* padding: 2em; */
-    /* color: #DECBB7; */
-    transition: 0.2s ease-out;
-}
-
-#skills-logo:hover {
-
-    transition: 0.2s ease-in-out;
-}
-
-.main {
-
-}
 /************************************************************ NEW STUFF 14 01 2019  *************************************/
+
 .container {
     background-color: #f5f5f587;
     padding: 2em 64px;
@@ -284,13 +241,13 @@ All palettes
     background-color: #7DAAA2;
 }
 
-.bubble.item-4-edu {
-    background-color: #57647B;
-    height: 70vh;
-}
+.bubble.item-4-edu,
 .bubble.item-5-work {
-    height: auto;
+    background-color: #57647B;
+    height: 80vh;
 }
+
+
 
 .bubble.about,
 .bubble.item-3-skills,
@@ -300,8 +257,7 @@ All palettes
 
 
 .bubble.item-2-portfolio,
-.bubble.item-3-skills,
-.bubble.item-4-edu {
+.bubble.item-3-skills {
     background-color: #57647B;
     height: auto !important;
 }
@@ -322,25 +278,10 @@ All palettes
 }
 
 
-/* .skills-grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-areas: 50vh 50vh 50vh 50vh;
-    grid-template-rows: auto auto;
-} */
-
-
-/* .skills-grid { */
-    /* grid-template-areas: ; */
-    /* grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%; */
-
-
 .skills,
 .porfolio {
     height: 0 auto;
     width: 0 auto;
-    color: #f5f5ff;
 }
 
 .grid-figure {
@@ -354,17 +295,42 @@ All palettes
     transition: 0.3s ease-in;
 }
 
+.fa-html5:before,
+.fa-css3-alt:before,
+.fa-js:before,
+.fa-sass:before {
+    font-size: 10em;
+}
+
 .logo-png {
     height: 12em;
     width: 12em;
 }
 
 i {
-    /* height: 11em; */
-    /* width: 11em; */
-    height: 12em;
-    width: 12em;
-} 
+    color: #f5f5ff;
+}
+
+i:hover {
+    color: #E4572E;
+    transition: 0.2s ;
+}
+
+.text li {
+    list-style-type: none;
+}
+
+.text li p {
+    margin-bottom: 3em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
 
 .empty {
     display: inline-block;
@@ -381,133 +347,6 @@ i {
     bottom: 0;
 }
 
-/* .skills {
-    margin: 1.2em 0.6em 1.6em 2.4em;
-*/
-    /* margin-top: 1.6em; */
-/*    height: 11em;
-    width: 11em;
-    display: inline-block;
-    padding: 2%;
-    border-radius: 0.4em;
-    background: #9398a0cf;
-    margin-bottom: 1em;
-    transition: 0.3s ease-in;
-    z-index: 1;
-} */
-
-/* end day 14 07 2018 */
-
-
-/* .about-me, */
-/* .portfolio-content, */
-/* .skills, */
-/* .education, */
-/* .work-xp {
-    margin: 2em 0 2em 0;
-    padding: 1em;
-    text-align: left;
-} */
-
-
-/* .about-me, */
-/* .skills, */
-.work-xp {
-    background-color: #7DAAA2;
-    border: 2px #7DAAA2;
-}
-
-.portfolio-content,
- {
-    background-color: #57647B;
-    border: 2px #57647B;
-}
-
-/* HEIGHT OF THE AIR BUBBLES */
-/* .about-me, */
-/* .education,  */
-.portfolio-content,
-.work-xp, 
-/* .skills */
-{
-    height: 60vh;
-    border-radius: 2em;
-    transition: 0.2s ease-out;
-}
-
-
-.portfolio-content {
-    height: auto;
-    /* margin: 0 auto; */
-}
-
-.work-xp,
-/* .skills { */
-    height: auto !important;
-}
-
-
-/* .about-me:hover, */
-/* .skills:hover, */
-/* .education:hover, */
-.work-xp:hover {
-    /* border-radius: 1em; */
-    transition: 0.4s ease-out;
-}
-
-
-div img {
-    height: 8em;
-    width: 8em;
-    padding-right: 2em;
-    margin: 1em;
-    padding: 0.5em;
-}
-
-
-
-}
-
-.logo-png:hover {
-    height: 12em;
-    width: 12em;
-    background-color: #f3f3f3;
-    transition: 0.3s ease-out;
-}
-
-/* .gifs.a{
-    margin-right: 160px;
-    float: right;
-}
-
-.gifs.b {
-    float: left;
-    margin-left: 160px;
-    margin-top: 4em ;
-}
-
-.gifs.c {
-    float: left;
-    margin-top: 4em;
-}
-
-.gifs.d {
-    float: right;
-    margin-right: 160px;
-    margin-top: 0 !important;
-}
-
-
-
-.gifs{
-    margin-top: 5em;
-    height: 12em ;
-    width: 12em ;
-} */
-
-.portfolio-item {
-
-}
 
 #go-to-top { 
     display: none ;
@@ -532,17 +371,6 @@ div img {
 #go-to-top:active {
     background-color: #7DAAA2;
     transition: 1s;
-}
-
-/* #to-top {
-    width: 40px;
-    height: 40px;
-} */
-
-/* EDUCATION HISTORY */
-.work-xp ol {
-    list-style-type: none;
-    text-align: left;
 }
 
 
@@ -606,271 +434,14 @@ input:hover {
     color: #f5f5f5;
 }
 
-/* mobile devices */
-/* 
-@media only screen and (max-width: 420px) {
-    .body-parallax {
-        background-image: none;
-    }
-    
-    #navbar ul li {
-        margin: 0 auto;
-        font-size: 0.46rem !important;
-    }
 
-    #navbar ul {
-        text-align: center;
-    }
-    
-    li a {
-        padding: 0.6em;
-    }
+/********************************************** MEDIA QUERIES ************************************************************/
 
-    .title {
-        font-size: 2.6em;
-        text-align: center;
-        letter-spacing: 0;
-    }
-
-    #sub-title {
-        font-size: 1.2em;
-    }
-
-    #sub-descrip-txt {
-        font-size: 0.8em;
-        padding-top: 2.6EM;
-    }
-
-    .heading-2 {
-        padding-right: 0 !important;
-    }
-
-    .gifs.a {
-        height: 6em;
-        width: 6em;
-    }
-
-    .container-about,
-    .container-edu,
-    .container-portfolio,
-    .container-skills,
-    .container-work {
-        padding: 2em 0;
-    }
-
-    .about-me,
-    .education,
-    .portfolio-content,
-    .skills,
-    .work-xp {
-        border-radius: 0;
-    }
-
-    .about-me-text {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        word-spacing: 0.2em;
-    }
-
-    .about-me-text p {
-        font-size: 1em;
-    }
-
-    .gifs.a {
-        margin-right: 2em;
-        margin-bottom: 4.6em;
-        margin-top: 8em;
-        margin-left: 0.4em;
-    }
-
-    .footer-links,
-    .education-text {
-        margin-left: 0 ;
-    }
-
-    .input {
-        margin-left: 0px !important;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .body-parallax {
-        background-image: none;
-    }
-    
-    #navbar ul li {
-        margin: 0 auto;
-        font-size: 0.5em !important;
-    }
-
-    #navbar ul {
-        text-align: center;
-    }
-    
-    li a {
-        padding: 0.6em;
-    }
-
-    .title {
-        font-size: 2.6em;
-        text-align: center;
-        letter-spacing: 0;
-    }
-
-    #sub-title {
-        font-size: 1.2em;
-    }
-
-    #sub-descrip-txt {
-        font-size: 0.8em;
-        padding-top: 2.6EM;
-    }
-
-    .heading-2 {
-        padding-right: 4em;
-    }
-
-    .gifs.a {
-        height: 6em;
-        width: 6em;
-    }
-
-    .container-about,
-    .container-edu,
-    .container-portfolio,
-    .container-skills,
-    .container-work {
-        padding: 2em 0;
-    }
-
-    .about-me,
-    .education,
-    .portfolio-content,
-    .skills,
-    .work-xp {
-        border-radius: 0;
-    }
-
-    .about-me-text {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        word-spacing: 0.2em;
-    }
-
-    .about-me-text p {
-        font-size: 1em;
-    }
-
-    .gifs.a {
-        margin-right: 2em;
-        margin-bottom: 4.6em;
-        margin-top: 8em;
-        margin-left: 0.4em;
-    }
-
-    .footer-links,
-    .education-text {
-        margin-left: 0 ;
-    }
-
-    .input {
-        margin-left: 0px !important;
-    }
-}
-
-@media only screen and (max-width: 380px) {
-    .body-parallax {
-        background-image: none;
-    }
-    
-    #navbar ul li {
-        margin: 0 auto;
-        font-size: 0.5em !important;
-    }
-
-    #navbar ul {
-        text-align: center;
-    }
-    
-    li a {
-        padding: 0.6em;
-    }
-
-    .title {
-        font-size: 2.6em;
-        text-align: center;
-        letter-spacing: 0;
-    }
-
-    #sub-title {
-        font-size: 1.2em;
-    }
-
-    #sub-descrip-txt {
-        font-size: 0.8em;
-        padding-top: 2.6EM;
-    }
-
-    .heading-2 {
-        padding-right: 2.2em;
-    }
-
-    .gifs.a {
-        height: 6em;
-        width: 6em;
-        margin-right: 0.6em;
-        margin-left: 0px;
-    }
-
-    .container-about,
-    .container-edu,
-    .container-portfolio,
-    .container-skills,
-    .container-work {
-        padding: 2em 0;
-    }
-
-    .about-me,
-    .education,
-    .portfolio-content,
-    .skills,
-    .work-xp {
-        border-radius: 0;
-    }
-
-    .about-me-text {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        word-spacing: 0.2em;
-    }
-
-    .about-me-text p {
-        font-size: 1em;
-    }
-
-    .gifs.a {
-        margin-right: 2em;
-        margin-bottom: 4.6em;
-        margin-top: 8em;
-        margin-left: 0.4em;
-    }
-
-    .footer-links,
-    .education-text {
-        margin-left: 0 ;
-    }
-
-    .input {
-        margin-left: 0px !important;
-    }
-} */
-
-
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     .container {
         border: 2px;
-}
 
+}
 
     .container:nth-child(even) {
         background-color: #7DAAA2;
