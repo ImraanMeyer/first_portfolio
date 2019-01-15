@@ -4,14 +4,9 @@ html {
     color: #f5f5f5;
 }
 
-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    min-width: 100%;
-    opacity: 0.15;
-  }
+* {
+    box-sizing: border-box;
+}
 
 body {
 
@@ -19,6 +14,11 @@ body {
     margin: 0;
     background-color: #d6d6d6;
     font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+    word-spacing: 0.2em;
 }
 
 
@@ -86,8 +86,8 @@ body {
 
 .heading-2 {
     padding: 0;
-    font-size: 2.8em;
-    margin: 1.2em 0 1.2em 0;
+    text-align: center;
+    font-size: 3.6em;
 }
 
 #sub-descrip-txt {
@@ -197,14 +197,11 @@ All palettes
     transition: 0.2s ease-out;
 }
 
-.about-me-text {
-    margin-right: 580px !important;
-}
 
 .education-text {
-    margin-left: 580px;
-    margin-right: 2.8em !important;
-    text-align: right;
+    /* margin-left: 580px; */
+    /* margin-right: 2.8em !important; */
+    /* text-align: right; */
 }
 
 .work-text {
@@ -213,7 +210,6 @@ All palettes
  
 .about-me-text,
 .skills-text,
-.portfolio-text,
 .work-text {
     margin-left: 2.8em !important;
 }
@@ -238,74 +234,177 @@ All palettes
 .main {
 
 }
-
-.container-portfolio,
-.container-about,
-.container-skills,
-.container-edu,
-.container-work {
-    background-color:  #f5f5f587;
-    /* margin:50px 0 0 0 ; */
-    padding: 2em 64px 2em 64px;
-    height: 0 auto;
-}
-
+/************************************************************ NEW STUFF 14 01 2019  *************************************/
 .container {
-    border: 2px;
     background-color: #f5f5f587;
     padding: 2em 64px;
+    height: 0vh auto;
+    /* position: relative; */
 }
 
-.container:nth-child(even) {
-    background-color: #7DAAA2;
+.column {
+    float: left;
+    justify-self: center;
 }
 
-.container:nth-child(odd) { 
-    background-color: #57647B;
+.column.col-text {
+    width: 60%;
 }
 
-.sub-item {
 
-}
-
-.sub-item:nth-child(
-    
-)
-
-.about-me,
-.portfolio-content,
-.skills,
-.education,
-.work-xp {
-    margin: 2em 0 2em 0;
-    padding: 1em;
-    text-align: left;
-}
-
-.skills {
+.column.col-img {
+    width: 40%;
+    height: auto;
     text-align: center;
 }
 
-  
-.about-me,
+.column.col-figures {
+    text-align: center;
+    width: 40%;
+}
+
+.gifs {
+    margin: 0 !important;
+    height: 14em !important; 
+    width:  14em !important;
+}
+
+.text {
+    padding-top: 2em; 
+}
+
+.bubble {
+    margin: 2em 0;
+    padding: 2em;
+    padding: 2em 2em 4em 2em;
+    border: 2px;;
+    border-radius: 2em;
+    transition: 0.2s ease-out;
+    height: 60vh;
+    background-color: #7DAAA2;
+}
+
+.bubble.item-4-edu {
+    background-color: #57647B;
+    height: 70vh;
+}
+.bubble.item-5-work {
+    height: auto;
+}
+
+.bubble.about,
+.bubble.item-3-skills,
+.bubble.item-5-work {
+    background-color: #7DAAA2 !important;
+}
+
+
+.bubble.item-2-portfolio,
+.bubble.item-3-skills,
+.bubble.item-4-edu {
+    background-color: #57647B;
+    height: auto !important;
+}
+
+.portfolio-grid,
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.portfolio.grid-block-1,
+.portfolio.grid-block-2,
+.portfolio.grid-block-3,
+.portfolio.grid-block-4 {
+    margin: 1em;
+}
+
+
+/* .skills-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 50vh 50vh 50vh 50vh;
+    grid-template-rows: auto auto;
+} */
+
+
+/* .skills-grid { */
+    /* grid-template-areas: ; */
+    /* grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%; */
+
+
 .skills,
+.porfolio {
+    height: 0 auto;
+    width: 0 auto;
+    color: #000;
+}
+
+
+.grid-skill-figure,
+.grid-figure {
+    grid-area: 25px;
+    height: 12em;
+    width: 12em;
+    padding: 2%;
+    border-radius: 0.4em;
+    background: #f5f5f5;
+    margin-bottom: 1em;
+    transition: 0.3s ease-in;
+}
+
+/* .skills {
+    margin: 1.2em 0.6em 1.6em 2.4em;
+*/
+    /* margin-top: 1.6em; */
+/*    height: 11em;
+    width: 11em;
+    display: inline-block;
+    padding: 2%;
+    border-radius: 0.4em;
+    background: #9398a0cf;
+    margin-bottom: 1em;
+    transition: 0.3s ease-in;
+    z-index: 1;
+} */
+
+/* end day 14 07 2018 */
+
+
+/* .about-me, */
+/* .portfolio-content, */
+/* .skills, */
+/* .education, */
+/* .work-xp {
+    margin: 2em 0 2em 0;
+    padding: 1em;
+    text-align: left;
+} */
+
+
+/* .about-me, */
+/* .skills, */
 .work-xp {
     background-color: #7DAAA2;
     border: 2px #7DAAA2;
 }
 
 .portfolio-content,
-.education {
+ {
     background-color: #57647B;
     border: 2px #57647B;
 }
 
 /* HEIGHT OF THE AIR BUBBLES */
-.about-me,
-.education, 
+/* .about-me, */
+/* .education,  */
 .portfolio-content,
 .work-xp, 
-.skills {
+/* .skills */
+{
     height: 60vh;
     border-radius: 2em;
     transition: 0.2s ease-out;
@@ -318,14 +417,14 @@ All palettes
 }
 
 .work-xp,
-.skills {
+/* .skills { */
     height: auto !important;
 }
 
 
-.about-me:hover,
+/* .about-me:hover, */
 /* .skills:hover, */
-.education:hover,
+/* .education:hover, */
 .work-xp:hover {
     /* border-radius: 1em; */
     transition: 0.4s ease-out;
@@ -343,7 +442,6 @@ div img {
 
 .logo-png {
     margin: 1.2em 0.6em 1.6em 2.4em;
-
     /* margin-top: 1.6em; */
     height: 11em;
     width: 11em;
@@ -363,7 +461,7 @@ div img {
     transition: 0.3s ease-out;
 }
 
-.gifs.a{
+/* .gifs.a{
     margin-right: 160px;
     float: right;
 }
@@ -391,32 +489,9 @@ div img {
     margin-top: 5em;
     height: 12em ;
     width: 12em ;
-}
+} */
 
 .portfolio-item {
-    /* color: #000;
-    margin: 2em;
-    /* margin: 0em 0 2em 0; */
-    /* padding: 0;
-    height: 12em;
-    width: 12em;
-    background-color: #f3f3f3;
-    transition: 0.3s ease-out;
-    display: inline-block; */ */
-
-    margin: 1.2em 0.6em 1.6em 2.4em;
-    /* margin-top: 1.6em; */
-    height: 11em;
-    width: 11em;
-    display: inline-block;
-    padding: 2%;
-    border-radius: 0.4em;
-    background: #f5f5f5;
-    margin-bottom: 1em;
-    transition: 0.3s ease-in;
-    z-index: 1;
-
-    
 
 }
 
@@ -518,8 +593,8 @@ input:hover {
 }
 
 /* mobile devices */
-
-/* @media only screen and (max-width: 420px) {
+/* 
+@media only screen and (max-width: 420px) {
     .body-parallax {
         background-image: none;
     }
@@ -807,8 +882,8 @@ input:hover {
         background: none;
     }
 
-    .about-me,
-    .education,
+    /* .about-me, */
+    /* .education, */
     .portfolio-content,
     .skills,
     .work-xp {
