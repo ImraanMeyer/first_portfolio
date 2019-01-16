@@ -221,9 +221,9 @@ All palettes  */
 }
 
 .gifs {
-    margin: 0 !important;
-    height: 14em !important; 
-    width:  14em !important;
+    margin: 0;
+    height: 14em; 
+    width:  14em;
 }
 
 .text {
@@ -320,10 +320,6 @@ i:hover {
     list-style-type: none;
 }
 
-.text li p {
-    margin-bottom: 3em;
-}
-
 h3 {
     font-size: 1.6em;
 }
@@ -379,6 +375,9 @@ h4 {
 /********************************************************************************************************************                                                       FOOTER  ******************************************************************************************************************/
 
 .site-footer {
+    text-align: center;
+
+
     height: 10em;
     padding-top: 2em;
     padding-bottom: 1em;
@@ -396,25 +395,36 @@ h4 {
 
 }
 
+.footer-icons {
+    height: 2em;
+    width: 2em;
+    color: #57647B;
+
+}
+
+.list-of-links {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-a-tags-linkedin,
+.footer-a-tags-github {
+    padding: 4px;
+}
+
 .footer-links {
-    width: 90%;
-    margin: 10px auto;
+    margin: 0 auto;
     list-style: none;
-    margin-left: 560px;
+    padding: 0;
 }
 
 .footer-links li a:hover {
-    background-color: #E4572E;
 }
 
 .footer-a-tags {
-    padding-top: 30px;
-    padding-right: 14px;
+
 }
 
-.footer-imgs {
-    color: #E4572E;
-}
 
 input {
     height: 3em;
@@ -437,20 +447,31 @@ input:hover {
 
 /********************************************** MEDIA QUERIES ************************************************************/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .container {
         border: 2px;
+        padding: 2em 0;
+    }
 
-}
+    .bubble {
+        border-radius: 0; 
+    }
 
-    .container:nth-child(even) {
-        background-color: #7DAAA2;
+    .bubble.item-4-edu {
+        height: 100vh;
     }
 
 
-    .container:nth-child(odd) { 
-        background-color: #57647B;
+
+    .title {
+        font-size: 4em;
+        letter-spacing: 0;
     }
+
+    #sub-title {
+        font-size: 2.2em;
+    }
+
 
     body {
         width: 100%;
@@ -459,55 +480,50 @@ input:hover {
     p {
         font-size: 0.8em;
     }
+
     #navbar ul li {
-        font-size: 0.4em !important;
+        font-size: 0.64em;
     }
 
     .body-parallax {
         background: none;
     }
 
-    /* .about-me, */
-    /* .education, */
-    .portfolio-content,
-    .skills,
-    .work-xp {
-        padding: 0.6em;
-        height: auto;
-    }
-
-    .work-text {
-        margin-right: 0 !important; 
-    }
-
     ol {
         padding-left: 0 ;
     }
+
+
     .heading-2 {
         font-size: xx-large;
     }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
     
-    .about-me p {
-        font-size: 0.8em;
+    .grid-figure {
+        height: 10em;
+        width: 10em;
+
     }
 
     .gifs {
-        margin: 0 ;
+        height: 12em;
+        width: 12em;
     }
 
     .gifs.d {
-        margin: 0 !important;
+        margin-top: 100px; 
     }
 
-    .gifs.a {
-        margin-right: 0;
-        margin-bottom: 4.6em;
-        margin-top: 8em;
-        margin-left: 0;
-    }
+    input {
+        margin: 0;
 
-    .gifs.b {
-        margin-left: 0;
     }
 
 }
