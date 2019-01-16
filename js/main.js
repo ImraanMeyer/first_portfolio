@@ -18,8 +18,3 @@ function scrollFunction() {
         document.getElementById("navbar").style.padding = "2.4em 0 2.4em 0";
     }
 }
-
-function width () {
-if (window.width > 480) {
-    $ ('head').append ('<script src="js/main.js" charset="utf-8"></script>')
-}

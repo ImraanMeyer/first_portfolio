@@ -284,6 +284,16 @@ All palettes  */
     width: 0 auto;
 }
 
+.skills.block-1,
+.skills.block-2,
+.skills.block-3,
+.skills.block-4 {
+    height: 10em;
+    width: 10em;
+    text-align: center;
+    margin: 2em;
+}
+
 .grid-figure {
     grid-area: 25px;
     height: 12em;
@@ -301,6 +311,8 @@ All palettes  */
 .fa-sass:before {
     font-size: 10em;
 }
+
+
 
 .logo-png {
     height: 12em;
@@ -571,6 +583,15 @@ input:hover {
     .gifs.d {
         margin-top: 100px; 
     }
+
+    .fa-html5:before,
+    .fa-css3-alt:before,
+    .fa-js:before,
+    .fa-sass:before {
+    font-size: 10em;
+    padding-right: 30px;
+}
+
 
     input {
         margin: 0;
