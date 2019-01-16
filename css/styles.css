@@ -527,3 +527,57 @@ input:hover {
     }
 
 }
+
+@media only screen and (max-width: 320px) {
+    #navbar ul li {
+        font-size: 0.427em;
+    }
+
+    .bubble {
+        padding-left: 2%;
+        padding-right: 2%;
+        height: -webkit-fill-available;
+    }
+
+    .title {
+        font-size: 2.6em;
+    }
+
+    #sub-title {
+        font-size: 1.4em;
+    }
+
+    #sub-descrip-txt {
+        font-size: 0.8em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    h4 {
+        font-size: 0.8em;
+    }
+
+    .column.col-text {
+        width: 70% ;
+    }
+
+    .column.col-img {
+        width: 30%;
+    }
+
+    .column.col-img.bulb,
+    .column.col-img.pencil {
+        padding-top: 4em;
+    }
+
+    .gifs {
+        height: 6em;
+        width: 6em;
+    }
+    
+    .gifs.d {
+        margin-top: 100px;
+    }
+}
