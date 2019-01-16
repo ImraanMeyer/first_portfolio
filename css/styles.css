@@ -434,7 +434,6 @@ input {
     background-color: #57647B;
     width: 8em;
     text-align: center;
-    margin-top: 2em;
     font-family: inherit;
 }
 
@@ -450,10 +449,11 @@ input:hover {
 @media only screen and (max-width: 480px) {
     .container {
         border: 2px;
-        padding: 2em 0;
+        padding: 0;
     }
 
     .bubble {
+        margin: 0;
         border-radius: 0; 
     }
 
@@ -513,8 +513,8 @@ input:hover {
     }
 
     .gifs {
-        height: 12em;
-        width: 12em;
+        height: 6em;
+        width: 6em;
     }
 
     .gifs.d {
@@ -572,10 +572,7 @@ input:hover {
         padding-top: 4em;
     }
 
-    .gifs {
-        height: 6em;
-        width: 6em;
-    }
+    
     
     .gifs.d {
         margin-top: 100px;
