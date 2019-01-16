@@ -503,10 +503,9 @@ input:hover {
         background-color: #ddd;
         color: black;
     }
-    
-    .active {
-        background-color: #4CAF50;
-        color: white;
+
+    .navbar-dropdown .icon {
+        display: none;
     }
 
     .container {
