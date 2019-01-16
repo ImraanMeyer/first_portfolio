@@ -14,6 +14,7 @@
 
 
     <script src="js/main.js" charset="utf-8"></script>
+    <script src="js/hamburger-menu.js" charset="utf-8"></script>
 
 </head>
 
@@ -22,10 +23,10 @@
     
         
             <!-- NAV BAR  (navbar)-->
-            <header id="navbar">
+            <header class="navbar-dropdown" id="navbar">
                     <nav>
                         <ul>
-                            <li>
+                            <li id="myLinks">
                                 <a href="#about-me-link">About Me</a>
                                 <a href="#portfolio-link">Portfolio</a>
                                 <a href="#skills-link">Skills</a>
@@ -35,6 +36,10 @@
                             </li>
                         </ul>
                     </nav>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
             </header> 
 
 
