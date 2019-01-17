@@ -2,8 +2,7 @@ html {
     scroll-behavior:  smooth;
     transition: 0.4s ease-in-out;
     color: #f5f5f5;
-    overflow-x: hidden;
-    width: 100%;
+    contain: content;
 }
 /* 
 * {
@@ -615,13 +614,16 @@ input:hover {
 }
 
 
-@media only screen and (min-width: 480px) {
-    
+@media only screen and (max-width: 480px) {
     .navbar-dropdown {
         /* background-image: url(../images/rain.png); */
         /* background-repeat: no-repeat; */
         background-color: #d6d6d6;
         
+    }
+
+    .bubble {
+        height: auto;
     }
 
     #navbar ul li {
@@ -653,7 +655,7 @@ input:hover {
     .bubble {
         padding-left: 2%;
         padding-right: 2%;
-        height: -webkit-fill-available;
+        height: auto;
     }
 
     .bubble.item-4-edu,
