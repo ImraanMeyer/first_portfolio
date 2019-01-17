@@ -595,11 +595,14 @@ input:hover {
 
     .fa-html5:before,
     .fa-css3-alt:before,
-    .fa-js:before,
-    .fa-sass:before {
+    .fa-js:before, {
     font-size: 10em;
     padding-right: 30px;
 }
+    
+    .fa-sass:before {
+        font-size: 10em;
+    }
 
 
     input {
@@ -610,7 +613,7 @@ input:hover {
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 480px) {
     .navbar-dropdown {
         /* background-image: url(../images/rain.png); */
         /* background-repeat: no-repeat; */
