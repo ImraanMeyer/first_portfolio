@@ -619,7 +619,7 @@ input:hover {
         position: relative !important;
     }
 
-    ul li {
+    #navbar ul li {
         width: 30% !important;
     }
 
@@ -641,6 +641,11 @@ input:hover {
         padding-left: 2%;
         padding-right: 2%;
         height: -webkit-fill-available;
+    }
+
+    .bubble.item-4-edu,
+    .bubble.item-5-work {
+        height: auto;
     }
 
     .title {
@@ -665,6 +670,8 @@ input:hover {
 
     .column.col-text {
         width: auto;
+        padding-top: 0;
+        padding-bottom: 0; 
     }
 
     .column.col-img {
@@ -673,7 +680,7 @@ input:hover {
 
     .column.col-img.bulb,
     .column.col-img.pencil {
-        padding-top: 4em;
+        padding-top: 0;
     }
 
     
