@@ -21,29 +21,28 @@
 <body class="body-parallax" id="to-top">
         
             <!-- NAV BAR  (navbar)-->
-            <header class="navbar-dropdown" id="navbar">
-                    <nav>
-                        <ul>
-                            <li id="myLinks">
-                                <a href="#about-me-link" data-target="container about">About Me</a>
-                                <a href="#portfolio-link" data-target="container portfolio">Portfolio</a>
-                                <a href="#skills-link">Skills</a>
-                                <a href="#education-link">Academics</a>
-                                <a href="#work-link">Work Experience</a>
-                                <a href="#contact-details-link">Contact Me</a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-            </header> 
 
 
 
             <!-- HEADER STARTS HERE -->
             <header class="site-header">
+                    <!-- NAVBAR STARTS -->
+                    <nav class="navbar-dropdown" id="navbar">
+                            <ul>
+                                <li id="myLinks">
+                                    <a href="#about-me-link" data-target="container about">About Me</a>
+                                    <a href="#portfolio-link" data-target="container portfolio">Portfolio</a>
+                                    <a href="#skills-link">Skills</a>
+                                    <a href="#education-link">Academics</a>
+                                    <a href="#work-link">Work Experience</a>
+                                    <a href="#contact-details-link">Contact Me</a>
+                                </li>
+                            </ul>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </nav>
+                    <!-- NAVBAR ENDS -->
                 
                 <id id="main-heading">
                     <h1 class="title">Imraan Meyer</h1>
@@ -271,11 +270,11 @@
         <!-- WORK EXPERIENCE CONTAINER -->
         <div class="container work" id="work-link">
             <section class="bubble item-5-work">
-
+            
             
                     <h2 class="heading-2">Work Experience</h2>
 
-                    <div class="column col-text">
+                    <div class="column col-text-edu">
                             <div class="text">
                                     <ol>
                                             <li>
@@ -303,21 +302,12 @@
                                     <img class="gifs d" src="images/animat-essential/customize/animat-customize-color.gif" alt="">
                             </div>
                     </div>
-
-                <div  >
-                
-
-                    <div class="work-text">
-
-                            
-                    </div>
                 </div>
             </section>
         </div>
     </main>
 
 
-    <!-- GO TO TOP BUTTON -->
     <a id="go-to-top" href="#to-top">
         <img src="images/up.png" alt="" height="40px" width="40px">
     </a>
@@ -339,7 +329,11 @@
         
         <a href="mailto:imraan.meyer97@gmail.com"><input type="button" value="Contact Me" placeholder="Contact Me"></a>
 
+        
     </footer>
+
+    <!-- GO TO TOP BUTTON -->
+    
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
