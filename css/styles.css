@@ -4,13 +4,8 @@ html {
     color: #f5f5f5;
     contain: content;
 }
-/* 
-* {
-    box-sizing: border-box;
-} */
 
 body {
-
     line-height: 1.6em;
     margin: 0;
     background-color: #d6d6d6;
@@ -28,6 +23,7 @@ p {
     background-image: url(../images/grey-min.jpg);
     /* Full height */
     height: 100%;
+    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -36,6 +32,7 @@ p {
 }
 
 .site-header {
+    /* height of header section */
     height: 100vh;
     margin: 0;
     background-repeat: cover;
@@ -46,8 +43,8 @@ p {
     background-repeat: no-repeat;
     background-blend-mode: lighten;
     background-color:  #4e4e4e;
-    /* #32425ed4; */
 
+    /* paralax efect for header background images */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,55 +107,40 @@ p {
     top: 0;
     transition: 0.4s;
     z-index: 1;
-
     background-repeat: no-repeat;
-    /* background-image: url(../images/header-bg.svg); */
     background-size: 100%;
     background-blend-mode: lighten;
     background-color: #f5f5f5;
-    /* #57647bd9;  */
-    /* #32425ed4; */
-    /* background-color: rgb(109, 109, 109);  */
 } 
 
 nav ul {
-    
     display: contents ;
     margin: 0;
-    /* overflow: hidden; */
-    /* font-size: 0.8em; */
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
     height: 10%;
 }
 
 #navbar ul li {
     font-size: 0.8em;
-    /* padding-top: 1.9em 0 6em 0; */
-    /* margin-top: 2.15em; */
     text-decoration: none;
-    /* margin-left: 375px; */
     list-style-type: none;
-
-    
     margin: 0 auto;
     text-align: center;
 }
-
 
 li a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    padding: 0.875em 1em;
-    
+    padding: 0.875em 1em;    
     display: inline;
     color: #000;
     border: 1px;
     border-radius: 1em;
 }
 
-li a:hover {
+#navbar li a:hover {
     background-color: #E4572E;
     color: #f5f5f5;
     transition: 0.6s;
@@ -170,33 +152,11 @@ li a:active {
     transition: 0.6s
 }
 
-/* WHITE SMOKE
-
-#F5F5F5
-DARK SEA GREEN
-
-#8ACB88
-AUROMETALSAURUS
-
-#648381
-DAVY'S GREY
-
-#575761
-FLAME
-
-#E4572E
-All palettes  */
-
-
-
 /* CV CONTENT */
-/************************************************************ NEW STUFF 14 01 2019  *************************************/
-
 .container {
     background-color: #f5f5f587;
     padding: 2em 64px;
     height: 0vh auto;
-    /* position: relative; */
 }
 
 .column {
@@ -233,6 +193,7 @@ All palettes  */
     padding-top: 2em; 
 }
 
+/* main text holder for content */
 .bubble {
     margin: 2em 0;
     padding: 2em;
@@ -244,13 +205,18 @@ All palettes  */
     background-color: #7DAAA2;
 }
 
-.bubble.item-4-edu,
-.bubble.item-5-work {
-    background-color: #57647B;
-    height: 80vh;
+.bubble.item-4-edu {
+    height: auto;
 }
 
+.bubble.item-4-edu,
+.bubble.item-5-work {
+    background-color: #57647B;   
+}
 
+.bubble.item-4-edu {
+    height: 70vh;
+}
 
 .bubble.about,
 .bubble.item-3-skills,
@@ -316,7 +282,6 @@ All palettes  */
 }
 
 
-
 .logo-png {
     height: 12em;
     width: 12em;
@@ -343,22 +308,12 @@ h4 {
     font-size: 1.4em;
 }
 
-.empty {
-    display: inline-block;
-    padding: 2%;
-    border-radius: 0.4em;
-    background: #9398a0cf;
-    margin-bottom: 1em;
-    transition: 0.3s ease-in;
-    z-index: 1;
-}
-
 
 .footer {
     bottom: 0;
 }
 
-
+/* GO TO TOP BUTTON */
 #go-to-top { 
     display: none ;
     z-index: 99;
@@ -384,14 +339,7 @@ h4 {
     transition: 1s;
 }
 
-
-
-
-
-
-
-
-/********************************************************************************************************************                                                       FOOTER  ******************************************************************************************************************/
+/******************************************************************************************************************** FOOTER  ******************************************************************************************************************/
 
 .site-footer {
     text-align: center;
@@ -426,25 +374,15 @@ h4 {
     list-style-type: none;
 }
 
-.footer-a-tags-linkedin,
-.footer-a-tags-github {
-    padding: 4px;
-}
+
 
 .footer-links {
     margin: 0 auto;
     list-style: none;
-    padding: 0;
+    padding: 0 2em 0 2em;
 }
 
-.footer-links li a:hover {
-}
-
-.footer-a-tags {
-
-}
-
-
+/* CONTACT ME BUTTON */
 input {
     height: 3em;
     border-radius: 0.6em;
@@ -462,8 +400,19 @@ input:hover {
     color: #f5f5f5;
 }
 
-#to-top {
+/* ICONS ON FOOTER */
+.fab.fa-linkedin-in,
+.fab.fa-github-alt,
+.fab.fa-instagram {
+    color: #000;
+    font-size: 2em;        
+}
 
+.fab.fa-linkedin-in:hover,
+.fab.fa-github-alt:hover,
+.fab.fa-instagram:hover {
+    color: #E4572E;
+    font-size: 2.4em;        
 }
 
 
@@ -612,6 +561,8 @@ input:hover {
         font-size: 10em;
     }
 
+    
+
 
     input {
         margin: 0;
@@ -620,7 +571,7 @@ input:hover {
 
 }
 
-
+/* MOBILE DEVICES */
 @media only screen and (max-width: 480px) {
     .navbar-dropdown {
         /* background-image: url(../images/rain.png); */
@@ -712,7 +663,7 @@ input:hover {
     }
 }
 
-
+/* TABLETS */
 @media only screen and (min-width: 768px) {
 
     .navbar-dropdown {
@@ -724,7 +675,11 @@ input:hover {
     }
 
     .bubble.item-4-edu {
-        height: 60vh;
+        height: 80vh;
+    }
+    
+    .bubble {
+        height: 70vh;
     }
 
     .column.col-text {
@@ -745,7 +700,8 @@ input:hover {
     }
 
     .column.col-text-edu {
-        width: 60%;
+        width: 50%;
+        float: left;
     }
 
     h3 {
@@ -760,3 +716,20 @@ input:hover {
         font-size: 1.02rem;
         word-spacing: 0.2em;
     }
+
+
+/* DESKTOP */
+@media only screen and (min-width: 992px) {
+    p {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    h4 {
+        font-size: 1.4em;
+    }
+}
+
