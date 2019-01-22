@@ -8,7 +8,7 @@
 
 ## Live Link
 
-https://imraanmeyer.github.io/online_cv/online_cv.html/
+https://imraanmeyer.github.io/online_cv/index.html/
 
 ## Prevalent Technologies Used
 
@@ -85,7 +85,6 @@ Tools:
 2019-01-12
 - Updated aos 
 - Color scheme updated 
-- 
 
 ## Contributors
 
