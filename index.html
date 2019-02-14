@@ -1,51 +1,294 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="css/style2nav.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Online CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-    <script src="js/hamburger-menu.js"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+    <script src="js/hamburger-menu.js" charset="utf-8"></script>
 </head>
-<body>
-        <div class="Navbar">
-            <div class="Navbar__Link Navbar__Link-brand">
-            Website title
-            </div>
+
+<body class="body-parallax" id="to-top">
+    <!-- HEADER STARTS HERE -->
+    <header class="site-header">
+        <!-- NAVBAR STARTS -->
+        <nav class="navbar-dropdown" id="navbar">
+            <ul>
+                <li id="myLinks">
+                    <a href="#about-me-link" data-target="container about">About Me</a>
+                    <a href="#portfolio-link" data-target="container portfolio">Portfolio</a>
+                    <a href="#skills-link">Skills</a>
+                    <a href="#education-link">Academics</a>
+                    <a href="#work-link">Work Experience</a>
+                    <a href="#contact-details-link">Contact Me</a>
+                </li>
+            </ul>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <!-- NAVBAR ENDS -->
+    
+        <section id="main-heading">
+
+            <h1 class="title">Imraan Meyer</h1>
             
-            <div class="Navbar__Link Navbar__Link-toggle">
-            <i class="fas fa-bars"></i>
-            </div>
+            <h2 id="sub-title">
+                Junior Web Developer
+            </h2>
+
+            <span>
+                <p id="sub-descrip-txt"> 
+                    Innovater, Adventurer, Lover of Nature
+                </p>
+            </span>
             
-            <nav class="Navbar__Items">
-                <div class="Navbar__Link">
-                Longer Link
+        </section>
+    </header>
+    <!-- HEADER ENDS HERE -->
+
+    <!-- ABOUT ME CONTAINER STARTS HERE !-->
+    <div class="container about" id="about-me-link">
+        <div data-aos="zoom-in-right" data-aos-duration="300" class="fade">
+            
+            <section class="bubble item-1-about">
+                <h2 class="heading-2">About Me</h2>
+            
+                <div class="column col-text">
+                    <div class="text">
+                        <p>
+                            Always trying my hardest and best to achieve my goals. 
+                        </p>
+                        
+                        <p>
+                            I consider myself to be a hardworker, adaptable, 
+                            trustworthy and has a mindset where I welcome new challenges!
+                        </p>
+                    </div>    
+                </div>
+
+                <div class="column col-img bulb">
+                    <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="200">
+                        <!-- ANIMATED GIF -->
+                        <img class="gifs a" src="images/gifs/bulb.gif" alt="lightbulb">    
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <!-- ABOUT ME CONTAINER ENDS HERE -->
+        
+    <!-- PORTFOLIO CONTAINER STARTS HERE -->
+    <div class="container portfolio" id="portfolio-link">
+            <!-- animation aos -->
+        <div data-aos="zoom-in-left" data-aos-duration="300">
+                
+            <section class="bubble item-2-portfolio">
+                <h2 class="heading-2">Portfolio</h2>
+                
+                <div class="portfolio-grid">
+                        
+                    <!-- BLOCK ONE STARTS HERE -->
+                    <div class="portfolio grid-block-1">
+                        <h3>Project 1</h3>
+                            <div class="grid-figure">   </div>
+                    </div>
+
+                    <!-- BLOCK TWO STARTS HERE -->
+                    <div class="portfolio grid-block-2">
+                        <h3>Project 2</h3> 
+                            <div class="grid-figure">   </div>
+                    </div>
+                    
+                    <!-- BLOCK THREE STARTS HERE -->
+                    <div class="portfolio grid-block-3">
+                        <h3>Project 3</h3>
+                            <div class="grid-figure">   </div>
+                    </div>
+
+                    <!-- BLOCK FOUR STARTS HERE -->
+                    <div class="portfolio grid-block-4">
+                        <h3>Project 4</h3>
+                            <div class="grid-figure">   </div>
+                    </div>
+                
+                </div> 
+
+            </section>
+        </div>
+    </div>
+
+
+
+    <!-- MY SKILLS CONTAINER -->
+    <div class="container skills" id="skills-link">
+        
+
+        <div data-aos="zoom-in-left" data-aos-duration="300">
+
+        <section class="bubble item-3-skills">
+        <h2 class="heading-2">Skills</h2>
+        
+            <div class="skills-grid">
+                    
+                <!-- SKILLS BLOCK 1 -->
+                <div class="skills block-1">
+                    <div class="grid-skill-figure">
+                        <div data-aos="fade-up" data-aos-duration="100" data-aos-delay="200">
+                            <i class="fab fa-html5 skill-logo"> </i>
+                        </div>
+                    </div> 
                 </div>
                 
-                <div class="Navbar__Link">
-                Longer Link
+                <!-- SKILLS BLOCK 2 -->
+                <div class="skills block-2">
+                    <div class="grid-skill-figure">
+                        <div data-aos="fade-up" data-aos-duration="100" data-aos-delay="300">
+                                <i class="fab fa-css3-alt skill-logo">  </i>  
+                        </div>
+                    </div> 
                 </div>
-            
-                <div class="Navbar__Link">
-                Link
+
+                <!-- SKILLS BLOCK 3 -->
+                <div class="skills block-3">
+                    <div class="grid-skill-figure">
+                        <div data-aos="fade-up" data-aos-duration="100" data-aos-delay="400">
+                            <i class="fab fa-js skill-logo">    </i>
+                        </div>
+                    </div> 
                 </div>
-            </nav>
-            
-            <nav class="Navbar__Items Navbar__Items--right">
-            
-                <div class="Navbar__Link">
-                Link
+
+                <!-- SKILLS BLOCK 4 -->
+                <div class="skills block-4">
+                    <div class="grid-skill-figure">
+                        <div data-aos="fade-up" data-aos-duration="100" data-aos-delay="500">
+                            <i class="fab fa-sass skill-logo"></i>                
+                        </div>
+                    </div> 
                 </div>
-            
-                <div class="Navbar__Link">
-                Link
-                </div>
-            </nav>
+            </div>                
+        </section>
         </div>
+    </div>
+
+    <!-- EDCUATION CONTAINER -->
+    <div class="container education" id="education-link">
+        <div data-aos="zoom-in-left" data-aos-duration="300">    
+                
+            <section class="bubble item-4-edu">
+
+                <h2 class="heading-2">Education History</h2>
+                
+                <div class="column col-text">
+                    <div class="text">
+                                    
+                        <h3>
+                            Life Choices (CodeSpace) - <strong>2018</strong>
+                        </h3>
+
+                        <h4>
+                            Programming Languages:
+                        </h4>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    HTML and Bootstrap Framework, CSS (SASS and 
+                                    SCSS), Javascript (Node.js, Express.js, Mongoose,
+                                    jQuery, React.js), Mongodb, MySQL
+                                </p>
+                            </li>
+                        </ul>
+                                    
+                
+                        <h3>
+                                Islamia College (Matric) - <strong>2015</strong>
+                        </h3>
+                    </div>    
+                </div>
+
+                <div class="column col-img pencil">
+                    <!-- ANIMATED GIF -->
+                    <div data-aos="fade-up" data-aos-duration="300" data-aos-delay="400">
+                        <img class="gifs a" src="images/gifs/pencil.gif" alt="">
+                    </div>   
+                </div>
         
+            </section>
+
+        </div>
+    </div>
+
+
+    <!-- WORK EXPERIENCE CONTAINER -->
+    <div class="container work" id="work-link">
+        <section class="bubble item-5-work">
+        
+        
+            <h2 class="heading-2">Work Experience</h2>
+
+            <div class="column col-text-edu">
+                    <div class="text">
+                        <ol>
+                            <li>
+                                <h3>SoundTech</h3>
+                                
+                                <h4>Duties:</h4>
+                                    <p>PC and Mobile repairs</p>
+                                    <p>Admin work </p>
+                            </li>
+                        </ol>
+                            
+                    </div>    
+            </div>
+
+            <div class="column col-img">
+                <div data-aos="zoom-in-up" data-aos-duration="300">
+                    <img class="gifs d" src="images/gifs/settings.gif" alt="">
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+    <a id="go-to-top" href="#to-top">
+        <img src="images/up.png" alt="" height="40px" width="40px">
+    </a>
+
+    <!-- FOOTER STARTS HERE -->
+    <footer class="site-footer" id="contact-details-link">
+        <ul class="list-of-links">
+            <li>
+                <a href="https://www.instagram.com/imraan_meyer"> 
+                    <i class="fab fa-instagram"> </i>
+                </a>
+
+                <a  href="https://www.linkedin.com/in/imraan-meyer-536476175/" target="_blank">
+                    <i class="fab fa-linkedin-in"> </i>
+                </a>
+
+                <a href="https://github.com/ImraanMeyer" target="_blank">
+                    <i class="fab fa-github-alt"></i>
+                </a>
+            </li>
+        </ul>
+        
+        <a href="mailto:imraan.meyer97@gmail.com"><input type="button" value="Contact Me" placeholder="Contact Me"></a>
+
+        
+    </footer>
 </body>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </html>

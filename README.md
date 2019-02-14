@@ -85,6 +85,20 @@ Tools:
 2019-01-12
 - Updated aos 
 - Color scheme updated 
+<<<<<<< HEAD
+=======
+
+2019-01-13
+- Burger nav implemented
+
+2019-01-16
+- Completed responsive across platforms
+
+2019-01-18
+- Bug fixes
+- Neating up of code (correct indentation) 
+
+>>>>>>> 849f00c0b57ef66c7a96786c11470ca3dfe99434
 
 ## Contributors
 
